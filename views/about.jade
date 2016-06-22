@@ -2,7 +2,7 @@ extends layout
 
 block content
 
-	header(id='homeHeader')
+	header(id='home-header')
 		div(class='ui internally celled padded grid')
 			div(id='aboutHeaderBanner', class='ui ten wide black column')
 				h1(class='ui uppercase grey right aligned header', style="font-size: 8rem; color: #f7f7f7 !important;")
@@ -59,27 +59,26 @@ block content
 						p In 2012, Robert launched Log Camp, a vocational training school for diverse, underserved youth, teaching coding, computer science, and software development skills.
 						p In 2004, Robert formed Press Digital Magazine, a online publication explored hybrid print and digital distribution model.
 
-	section(id='experienceSection', class='ui straight grey segment')
+	section(id='experience', class='ui straight grey segment')
 			div(class='ui internally celled padded grid')
 				div(class='ui row')
 					div(class='ui five wide column')
 						h2(class='ui uppercase right aligned header')
 							span(class='blue bottom border') Employment
 					div(class='ui eight wide column')
-							h3(class='ui header') Employment
-							ul(class='ui vertical list')
-								div(class='ui item')
-									span Program Director, Log Camp at Impact NW
-								div(class='ui item')
-									span Frontend Web Developer, Raleigh &amp; Co.
-								div(class='ui item')
-									span Technology Outreach Specialist, at Corvallis Chamber of Commerce
-								div(class='ui item')
-									span Event Coordinator, Technology Association of Oregon
-								div(class='ui item')
-									span Shift Leader, at Oregon Health Sciences University
+						ul(class='ui vertical list')
+							div(class='ui item')
+								span Program Director, Log Camp at Impact NW
+							div(class='ui item')
+								span Frontend Web Developer, Raleigh &amp; Co.
+							div(class='ui item')
+								span Technology Outreach Specialist, at Corvallis Chamber of Commerce
+							div(class='ui item')
+								span Event Coordinator, Technology Association of Oregon
+							div(class='ui item')
+								span Shift Leader, at Oregon Health Sciences University
 
-	section(id='volunteer', class='ui straight grey segment')
+	section(id='volunteer')
 		div(class='ui internally celled padded grid')
 			div(class='ui six wide column')
 				h3(class='ui right aligned header') Volunteer
@@ -98,7 +97,7 @@ block content
 		div(class='ui internally celled padded grid')
 			div(id='education-banner-img', class='ui six wide column')
 				h3(class='ui right aligned header') Education
-			div(class='ui eight wide column')
+			div(class='ui nine wide column')
 				ul(class='ui vertical list')
 								div(class='ui item')
 									span Portland State University
@@ -119,32 +118,12 @@ block content
 								div(class='ui item')
 									span Shift Leader, at Oregon Health Sciences University
 
-	section(id='skillsetSection', class='ui straight grey segment')
-		div(class='ui container')
-			div(class='ui padded centered grid')
-				div(class='ui row')
-					h2(class='ui uppercase header')
-						span(class='blue bottom border') Skillset
-				div(class='ui row')
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
-				div(class='ui row')
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
-					div(class='ui five wide column')
-						div(class='ui grey segment')
-							h3(class='ui header') Skill
+	section(id='technical-skills', class='ui straight grey segment')
+		div(class='ui internally celled padded grid')
+			div(id='technical-skills-banner-img', class='ui six wide column')
+				h3(class='ui right aligned header') Technical Skills
+			div(class='ui nine wide column')
+
 
 	section(id='portfolioSection', class='ui straight grey segment')
 		div(class='ui container')
@@ -162,31 +141,26 @@ block content
 							h3(class='ui header') Visit the portfolio
 							a(href='/portfolio', class='ui blue button') View portfolio
 
-	section(id='testimonialsSection', class='ui straight grey segment')
-		div(class='ui container')
-			div(class='ui padded centered grid')
-				div(class='ui row')
-					div(class='ui sixteen wide center aligned column')
-						h2(class='ui uppercase header')
-							span(class='blue bottom border') Testimonials
-				div(class='ui row')
-					div(class='ui five wide column')
-						div(class='ui raised grey segment')
-							h3(class='ui header') Testimonial One
-							blockquote This is a blockquote about some silly work thing.
-							b First Last
-					div(class='ui five wide column')
-						div(class='ui raised grey segment')
-							h3(class='ui header') Testimonial Two
-							blockquote This is the second testimonial
-							b First Last
-					div(class='ui five wide column')
-						div(class='ui raised grey segment')
-							h3(class='ui header') Testimonial One
-							blockquote This is another blockquote
-							b First Last
+	section(id='testimonials-section')
+		div(class='ui internally celled padded grid')
+			div(id='testimonials-banner-img', class='ui six wide column')
+				h2(class='ui uppercase grey right aligned header')
+					span(class='blue bottom border') Testimonials
+			div(class='ui nine wide column')
+				div(class='ui raised grey segment')
+					h3(class='ui header') Testimonial One
+					blockquote This is a blockquote about some silly work thing.
+					b First Last
+				div(class='ui raised grey segment')
+					h3(class='ui header') Testimonial Two
+					blockquote This is the second testimonial
+					b First Last
+				div(class='ui raised grey segment')
+					h3(class='ui header') Testimonial One
+					blockquote This is another blockquote
+					b First Last
 
-	section(id='contactSection', class='ui straight grey segment')
+	section(id='contact-section', class='ui straight grey segment')
 		div(class='ui container')
 			div(class='ui padded grid')
 				div(class='ui row')
