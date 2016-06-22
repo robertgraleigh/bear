@@ -1,0 +1,261 @@
+html {
+	font-size: 1rem;
+}
+
+body {
+  font-family: 14px "Lucida Grande", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+section {
+	margin: 0px !important;
+	border-top: solid 2px #D4D4D5 !important;
+}
+
+footer {
+  margin: 0px !important;
+}
+
+h1 {
+	/* font-size: 3rem !important; */
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h2 {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h3 {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h4 {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h5 {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+h6 {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+p {
+	font-family: 'Georgia';
+	font-weight: normal;;
+	font-size: 1rem;
+}
+
+#homeHeader {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#home-ad {
+	background-image: url('/img/sos.png');
+	background-position: top left;
+	background-repeat: repeat;
+	background-size: cover;
+	opacity: 10%;
+}
+
+/* controls the link color */
+a {
+	color: #404040 !important;
+  /* color: #00B7FF; */
+	/* color: #222222; */
+}
+
+a:hover {
+	color: #444444;
+	/* color: #2185D0 !important; */
+}
+
+/* controls the logo styles */
+.logo {
+	font-family: 'League Spartan';
+	font-size: 2.5rem;
+	font-weight: normal;
+	color: #000000;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* controls the brand font */
+.brand {
+	font-family: 'League Spartan';
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+.uppercase {
+	text-transform: uppercase !important;
+}
+
+.button {
+	font-family: 'Lato' !important;
+	font-weight: bold;
+	font-size: 1rem;
+	text-transform: uppercase !important;
+}
+
+.link {
+	font-family: 'Lato', sans-serif;
+	font-weight: 'bold';
+	font-size: 1rem;
+}
+
+#main-footer {
+	margin: 0px !important;
+	padding: 0px !important;
+	color: #F9F9F9;
+	background-color: none;
+	background-image: url("../public/img/swirl_pattern.png");
+}
+
+#spirals {
+	margin: 0px !important;
+	padding: 0px !important;
+	color: #F9F9F9;
+	background-image: url("public/img/swirl_pattern.png") !important;
+}
+
+.inverted.lightgrey.segment {
+	background-color: #EEEEEE;
+}
+
+.inverted.darkgrey.segment {
+	background-color: #222222;
+}
+
+.green-brand {
+	color: #669900;
+}
+
+#offscreenMenu {
+	display: none;
+}
+
+.straight.segment {
+	border: 0px;
+	border-radius: 0px;
+}
+
+.card {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+.blue.bottom.border {
+	border-bottom: solid 2px #2185D0;
+}
+
+/*
+	HOME
+*/
+
+#home-header {
+	background-image: url('../img/placeholder-1920-734.png') !important;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#about-header {
+	background-image: url('/public/img/fran-lebowitz.jpg') !important;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.inverted.grey.segment {
+	background-color: #F3F4F6 !important;
+}
+
+.divider {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.ui .item {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+#copyright {
+	text-transform: uppercase;
+}
+
+#homeHeaderBanner {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+	text-align: center !important;
+}
+
+#aboutHeaderBanner {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+#productsHeaderBanner {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+.ui.straight.grey.segment {
+	box-shadow: 0px 0px 0px 0px;
+	border-top: solid 1px #d4d4d0 !important;
+	border-bottom: none !important;
+}
+
+.ui.raised.segment {
+	box-shadow: 0px 0px 0px 0px !important;
+	border-radius: 5px !important;
+	border-right: solid 5px #d4d4d5 !important;
+	border-bottom: solid 5px #d4d4d5 !important;
+}
+
+.ui.raised.segment:hover {
+	box-shadow: 0px 0px 0px 0px !important;
+	border-radius: 5px important;
+	border-right: solid 5px #2185d0 !important;
+	border-bottom: solid 5px #2185d0 !important;
+	cursor: pointer;
+}
+
+.ui.raised.blue.segment {
+	box-shadow: 0px 0px 0px 0px !important;
+	border-radius: 5px important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top: solid 2px #2185d0 !important;
+	border-right: solid 5px #d4d4d5 !important;
+	border-bottom: solid 5px #d4d4d5 !important;
+	cursor: pointer;
+}
+
+.ui.inverted.grey.segment {
+	background-color: #f9f9f9 !important;
+}

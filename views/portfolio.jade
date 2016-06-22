@@ -1,0 +1,50 @@
+extends layout
+
+block content
+
+	header(id='servicesHeader', class='ui straight white segment')
+		div(class='ui internally celled padded grid')
+			div(id='servicesHeaderBanner', class='ui ten wide grey column')
+				h1(class='ui uppercase grey right aligned header', style="font-size: 7rem; color: #f7f7f7 !important;")
+					span(class='blue bottom border') #{banner.heading}
+				p #{banner.copy}
+			div(class='ui six wide column')
+				h3(class='ui uppercase header') This is the header for the page
+				p #{box.copyOne}
+				p #{box.copyTwo}
+				a(class='ui basic blue button') #{box.buttonOne}
+				a(class='ui basic grey button') #{box.buttonTwo}
+
+	section(id='')
+		div(class='ui white segment')
+			div(class='ui container')
+				div(class='ui padded grid')
+					div(class='ui row')
+						div(class='ui sixteen wide center aligned column')
+							h2(class='ui uppercase header')
+								span(class="blue bottom border") Ideal Clients
+					div(class='ui row')
+						div(class='ui eight wide centered column')
+							div(class='ui white segment')
+								div(class='ui eight wide centered column')
+									p This is a eight wide column
+
+	section(id='')
+		div(class='ui inverted grey straight segment')
+			div(class='ui container')
+				div(class='ui padded grid')
+					div(class='ui row')
+						div(class='ui sixteen wide column')
+							h2(class='ui uppercase centered header') Projects
+					div(class='ui row')
+						div(class='ui three cards')
+							each project in projects
+								div(class='ui card')
+									div(class='ui image')
+										img(src='http://www.placehold.it/300x200')
+									div(class='content')
+										div(class='header')
+											h3(class='ui uppercase heading') #{project.company}
+										div(class='description')
+											p A simple website is used to promote a good or service. Works as information or signup , or simple marketing functions.
+											a(href='', class='ui basic blue button') Visit Website

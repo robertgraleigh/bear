@@ -1,0 +1,271 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/css/semantic-ui/semantic-ui.min.css')
+		link(rel='stylesheet', href='/css/app/app.css')
+
+	body
+
+		header(id='homeHeader')
+			div(class='ui centered container')
+				div(class='ui padded grid')
+					div(class='ui seven wide column')
+						a(class='brand uppercase link', href='/', style='font-family: League Spartan;') RGR | Robert G. Raleigh | Web Developer
+					div(class='ui three wide column')
+						a(class='brand uppercase link', href='/')
+							i(class='fa fa-phone fa-fw')
+							span(class='ui uppercase bold') +1 (503) 502-6125
+					div(class='ui three wide column')
+						a(class='ui brand uppercase link', href='/')
+							i(class='fa fa-envelope fa-fw')
+							span(class='ui uppercase bold') robert[at]rgr.com
+					div(class='ui three wide column')
+						a(class='ui brand uppercase link', href='/')
+							span(class='ui brand uppercase link') @RobertGRaleigh
+
+	nav(class='ui attached menu')
+			div(class='ui item')
+				a(class='uppercase brand link', href='/') Home
+			div(class="ui simple uppercase dropdown item") About
+				div(class="menu")
+					div(class="header")
+						a(class='link', href='/about') About Us
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/about') About Robert
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/about') Robert's Story
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/about') Portfolio
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/about') Testimonials
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/about') Contact Us
+			div(class="ui simple uppercase dropdown item") Products
+				div(class="menu")
+					div(class="header")
+						a(class='link', href='/products') Products
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/websites') Websites
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/online-store') Online Store
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/cms-systems') CMS System
+			div(class="ui simple uppercase dropdown item") Services
+				div(class="menu")
+					div(class='header')
+						a(class='link', href='/services') Services
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/websites') Web Development
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/online-store') Web Design
+					div(class='ui divider')
+					div(class="item")
+							a(class='uppercase brand link', href='/products/web-hosting') Web Hosting
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/cms-systems') Copywriting
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/branding') Branding
+			div(class="ui simple uppercase dropdown item") Company
+				div(class="menu")
+					div(class='header')
+						a(class='link', href='/company') Company
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/websites') Our Story
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/online-store') Ideal Clients
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/web-hosting') Values
+					div(class='ui divider')
+					div(class="item")
+						a(class='uppercase brand link', href='/products/cms-systems') Mission
+			div(class='ui item')
+				a(class='uppercase brand link', href='/portfolio') Portfolio
+			div(class="ui simple uppercase dropdown item") Blog
+				div(class="menu")
+					div(class='header')
+						a(class='link', href='/blog') Blog
+					div(class="ui item")
+						a(class='uppercase brand link', href='/blog/tutorials') Tutorials
+					div(class="ui item")
+						a(class='uppercase brand link', href='/blog/articles') Articles
+					div(class="ui item")
+						a(class='uppercase brand link', href='/blog/tools') Tools
+					div(class="ui item")
+						a(class='uppercase brand link', href='/blog/resources') Resources
+			div(class='ui item')
+							a(class='ui basic grey button', href='/contact') Contact
+			div(class='ui item')
+				a(class='ui basic blue button', href='/start') Get Started
+
+
+
+		block content
+
+			section(id='newsletter', class='ui inverted grey straight segment')
+				div(class='ui container')
+					div(class='ui padded grid')
+						div(class='ui sixteen wide column')
+							form(id='newsletter', class='ui form')
+								div(class='ui fields')
+									div(class='ui four wide field')
+										input(type='text', placeholder='First Name')
+									div(class='ui four wide field')
+										input(type='text', placeholder='Last Name')
+									div(class='ui four wide field')
+										input(type='text', placeholder='Email address')
+									div(class='ui four wide field')
+										button(id='', class='ui blue button') Subscribe
+
+		section(class='ui centered container')
+			div(class='ui internally celled padded grid')
+				div(class='row')
+					div(class='ui three wide column')
+						div(class='ui relaxed divided vertical list')
+							div(class='ui item')
+								a(href='/about')
+									h3(class='ui uppercase header') About
+							div(class='ui item')
+								a(href='/about', class='uppercase brand link') About Robert
+							div(class='ui item')
+								a(href='/roberts-story', class='uppercase brand link') Robert's Story
+							div(class='ui item')
+								a(href='/experience', class='uppercase brand link') Work Experience
+							div(class='ui item')
+								a(href='/volunteer', class='uppercase brand link') Volunteer
+							div(class='ui item')
+								a(href='/skillset', class='uppercase brand link') Technical Skills
+							div(class='ui item')
+								a(href='/soft-skills', class='uppercase brand link') Soft Skills
+							div(class='ui item')
+								a(href='/testimonials', class='uppercase brand link') Testimonials
+							div(class='ui item')
+								a(href='/portfolio', class='uppercase brand link') Portfolio
+							div(class='ui item')
+								a(href='/contact', class='uppercase brand link') Contact
+					div(class='ui three wide column')
+						div(class='ui relaxed divided vertical list')
+							div(class='ui item')
+								a(href='/products')
+									h3(class='ui uppercase header') Products
+							div(class='item')
+								a(class='uppercase brand link') Websites
+							div(class='item')
+								a(class='uppercase brand link') E-Commerce
+							div(class='item')
+								a(class='uppercase brand link') CMS Systems
+					div(class='ui three wide column')
+						div(class='ui relaxed divided vertical list')
+							div(class='ui item')
+								a(href='/services')
+									h3(class='ui uppercase header') Services
+							div(class='item')
+								a(class='uppercase brand link') Web Development
+							div(class='item')
+								a(class='uppercase brand link') Web Design
+							div(class='item')
+								a(class='uppercase brand link') Web Maintenance
+							div(class='item')
+								a(class='uppercase brand link') Web Hosting
+							div(class='item')
+								a(class='uppercase brand link') E-Commerce
+							div(class='item')
+								a(class='uppercase brand link') Copywriting
+							div(class='item')
+								a(class='uppercase brand link') Branding
+							div(class='item')
+								a(href='/fundraising', class='uppercase brand link') Fundraising
+							div(class='item')
+								a(class='uppercase brand link') Consulting
+					div(class='ui three wide column')
+						div(class='ui relaxed divided vertical list')
+							div(class='ui item')
+								a(href='/company')
+									h3(class='ui uppercase header') Company
+							div(class='item')
+								a(class='uppercase brand link') Web Development
+							div(class='item')
+								a(class='uppercase brand link') Web Design
+							div(class='item')
+								a(class='uppercase brand link') E-Commerce
+					div(class='ui three wide column')
+						div(class='ui relaxed divided vertical list')
+							div(class='ui item')
+								a(href='/blog')
+									h3(class='ui uppercase header') Blog
+							div(class='item')
+								a(class='uppercase brand link') Tools
+							div(class='item')
+								a(class='uppercase brand link') Resources
+							div(class='item')
+								a(class='uppercase brand link') Articles
+							div(class='item')
+								a(class='uppercase brand link') Events
+							div(class='ui item')
+								a(class='uppercase brand link') How To
+
+		footer(id="main-footer", class='ui straight grey segment')
+			div(class='ui container')
+				div(class='ui padded centered grid')
+					div(class='row')
+						div(class='ui four wide column')
+							img(src='http://placehold.it/140x140', class='ui image')
+						div(class='ui four wide column')
+							h4(class='ui uppercase header') About Robert
+							span This is the description of the website for the template
+						div(class='ui four wide column')
+							h4(class='ui uppercase header') Contact
+							div(class='ui vertical list')
+								div(class='ui item')
+									a(class='uppercase brand link', href='http://www.twitter.com')
+										i.fa.fa-phone.fa-fw
+										span 1 (503) 502-6125
+								div(class='ui item')
+									a(class='uppercase brand link', href='/')
+										i.fa.fa-envelope.fa-fw
+										span robert[at]rgr.com
+								div(class='ui item')
+									a(class='brand uppercase link', href='/')
+										i.fa.fa-map-marker.fa-fw
+										span 334 NW 11th Ave, PDX
+						div(class='ui four wide column')
+							h4(class='ui uppercase header') Connect
+							div(class='ui vertical list')
+								div(class='ui item')
+									a(class='brand uppercase link', href='/')
+										i.fa.fa-twitter.fa-fw
+										span @RobertGRaleigh
+								div(class='ui item')
+									a(class='brand uppercase link', href='/')
+										i.fa.fa-linkedin.fa-fw
+										span @RobertGRaleigh
+								div(class='ui item')
+									a(class='brand uppercase link', href='/')
+										i.fa.fa-github.fa-fw
+										span @RobertGRaleigh
+
+		section(id='copyright', class='ui straight grey segment')
+			div(class='ui container')
+				div(class='ui padded centered grid')
+					div(class='row')
+						div(class='ui eight wide column')
+							p &copy; Copyright #{ year }, RGR Group, Inc. All rights reserved.
+						div(class='ui four wide column')
+							a(href='/privacy') Privacy Policy
+						div(class='ui four wide column')
+							p Made in PDX

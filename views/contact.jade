@@ -1,0 +1,47 @@
+extends layout
+
+block content
+	header(class='ui straight grey segment')
+		div(class='ui container')
+			div(class='ui padded grid')
+				div(class='ui ten wide column')
+					h1 #{headerSection.title}
+					h3 #{headerSection.subTitle}
+					p Welcome to #{headerSection.subCopy}
+				div(class='ui six wide column')
+					p This is the side box
+
+	section(id='ui straight blue segment')
+		div(class='ui container')
+			div(class='ui padded grid')
+				div(class='ui eight wide column')
+					h2(class='ui header') About RGR
+					p This is the main thing about the company.
+
+	section(id='ui straight blue segment')
+		div(class='ui container')
+			div(class='ui padded grid')
+				div(class='ui eight wide column')
+					div(class='ui grey segment')
+						h2(class='ui header') Contact Form
+						form(id='contactForm', class='ui form')
+							div(class='ui eight wide field')
+								input(type='text', placeholder='First Name')
+							div(class='ui eight wide field')
+								input(type='text', placeholder='Last Name')
+							div(class='ui eight wide field')
+								input(type='email', placeholder='Email address')
+							div(class='ui field')
+								a(class='ui blue button') Submit message
+
+				div(class='ui eight wide column')
+					div(class='ui blue segment')
+						h2(class='ui header') Contact Info
+						address 334 NW 11th Ave, Portland, OR 97204
+							ul(class='ui vertical list')
+								li(class='ui item')
+									a(href='')
+									span robert@rgr.com
+								li(class='ui item')
+									a(href='')
+									span +1 (503) 502-6125

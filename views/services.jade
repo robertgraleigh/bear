@@ -1,0 +1,33 @@
+extends layout
+
+block content
+
+	header(id='servicesHeader', class='ui straight white segment')
+		div(class='ui internally celled padded grid')
+			div(id='servicesHeaderBanner', class='ui ten wide grey column')
+				h1(class='ui uppercase grey right aligned header', style="font-size: 6rem; color: #f7f7f7 !important;")
+					span(class='blue bottom border') #{banner.heading}
+					p #{banner.copy}
+			div(class='ui six wide column')
+				h3(class='ui uppercase header') #{box.title}
+				p #{box.copyOne}
+				p #{box.copyTwo}
+				a(class='ui basic blue button') #{box.buttonOne}
+				a(class='ui basic grey button') #{box.buttonTwo}
+
+	section(id='services')
+		div(class='ui straight grey segment')
+			div(class='ui container')
+				div(class='ui padded centered grid')
+					div(class='ui row')
+						div(class='ten wide column')
+							h2(class='ui uppercase grey center aligned header', style='font-size: 2rem;')
+								span(class='bottom blue border') Digital Services
+							h3(class='ui grey center aligned header') This is the final supporting content for the top section of the website. This carries on the meaning of the page for people who scan.
+					div(class='ui row')
+					each service in services
+							div(class='ui five wide column')
+								div(class='ui raised segment')
+									h3(class='ui uppercase grey header') #{service.header}
+									p(class='ui text') #{service.copy}
+									a(class='ui basic blue button') #{service.button}

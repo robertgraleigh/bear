@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	header(class='ui straight grey segment')
+		div(class='ui container')
+			div(class='ui padded grid')
+				div(class='ui ten wide column')
+					h1 #{pageHeader.title}
+					p Welcome to #{pageHeader.subTitle}
+				div(class='ui six wide column')
+					p This is the side box
+
+	each section in sections
+		section(class='ui straight grey segment')
+			div(class='ui container')
+				div(class='ui padded grid')
+					div(class='ui row')
+						div(class='ui sixteen wide column')
+							h2 #{section.title}
+							p #{section.copy}

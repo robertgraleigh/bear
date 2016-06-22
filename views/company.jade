@@ -1,0 +1,114 @@
+extends layout
+
+block content
+
+	header(id='homeHeader', class='ui straight white segment')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide grey column')
+				h1(class='ui uppercase right aligned header', style="font-size: 5rem; color: #f7f7f7;")
+					span(class='blue bottom border') #{pageHeader.title}
+			div(class='ui seven wide column')
+				h3(class='ui uppercase header') This is the placeholder content for the company and other stuff.
+				p #{pageHeader.subTitle}
+				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
+				a(class='ui basic blue button') Test button
+				a(class='ui basic blue button') Test button
+
+	section(id='ourStory')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h1(class='ui uppercase right aligned grey header', style="font-size: 5rem;")
+					span(class='blue bottom border') Our Story
+			div(class='ui seven wide column')
+				h3(class='ui header') Founded in x, this is the main section
+				p This is the first paragraph of the story section we do things.
+				p This is the second paragraph of the story section.
+				p This is the third paragraph of the story section.
+				p This is the fourth paragraph of the story section.
+				p This is the fifth paragraph of the story section.
+
+	section(id='idealClients')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h2(class='ui uppercase right aligned grey header', style="font-size: 5rem;")
+					span(class='blue bottom border') Ideal Clients
+			div(class='ui six wide left aligned column')
+				p This is the first paragraph of the story section.
+				p This is the second paragraph of the story section.
+				p This is the third paragraph of the story section.
+				p This is the fourth paragraph of the story section.
+				p This is the fifth paragraph of the story section.
+
+	section(id='')
+		div(class='ui internally celled padded grid')
+			div(class='ui row')
+				div(class='ui nine wide column')
+					h2(class='ui uppercase right aligned grey header', style="font-size: 5rem;")
+						span(class='blue bottom border') Values
+				div(class='ui seven wide column')
+					div(class='ui list')
+						div(class='ui item')
+							span Value one
+
+	section(id='ourMission')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h2(class='ui right aligned uppercase header', style="font-size: 5rem;")
+					span(class='blue bottom border') Mission
+			div(class='ui seven wide column')
+				img(src='http://placehold.it.500x300', class='ui image')
+				p This is the first paragraph of the story section.
+				p This is the second paragraph of the story section.
+				p This is the third paragraph of the story section.
+				p This is the fourth paragraph of the story section.
+				p This is the fifth paragraph of the story section.
+
+	section(id='ventures')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h2(class='ui right aligned uppercase header', style="font-size: 5rem;")
+					span(class='bottom blue border') Ventures
+			div(class='ui seven wide column')
+				div(class='ui vertical list')
+					div(class='ui item')
+						div(class='ui raised segment')
+							h3(class='left aligned uppercase header') Natives Who Code
+							p A training program for Native American Software engineers
+							a(class='ui basic blue button') Visit Natives Who Code
+
+					div(class='ui padded item')
+						div(class='ui raised segment')
+							h3(class='ui left aligned uppercase header') Log Camp
+							p A vocational school for underserved youth teaching coding, computer science, and software development skills.
+							a(class='ui basic blue button') Visit Log Camp
+
+					div(class='ui padded item')
+						div(class='ui raised segment')
+							h3(class='ui left aligned uppercase header') Guerilla Division
+							p A vocational school for underserved youth teaching coding, computer science, and software development skills.
+							a(class='ui basic blue button') Visit Guerilla Division
+
+					div(class='ui padded item')
+						div(class='ui raised segment')
+							h3(class='ui left aligned uppercase header') Press
+							p A digital arts and culture magazine covering Portland, OR.
+							a(class='ui basic blue button') Visit Press
+
+	section(id='contactSection')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h1(class='ui uppercase right aligned header', style='font-size: 5rem;')
+					span(class='blue bottom border') Contact Us
+			div(class='ui seven wide column')
+				h4(class='ui uppercase header') RGR Ventures is a digital agency located in Portland, OR
+				img(src='http://placehold.it/140x140', class='ui image')
+				address 334 NW 11th Ave, Portland, OR 97204
+				ul(class='ui vertical list')
+					div(class='ui item')
+						a(href='')
+							span info@rgrventures.com
+					div(class='ui item')
+						a(href='')
+							span +1 (503) 502-6125
+				a(class='ui basic grey button') Email Robert
+				a(class='ui basic blue button') Call Robert
