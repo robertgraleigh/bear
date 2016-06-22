@@ -187,6 +187,12 @@ a:hover {
 	background-size: cover;
 }
 
+#about-robert-banner-img {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
 .inverted.grey.segment {
 	background-color: #F3F4F6 !important;
 }
