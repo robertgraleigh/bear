@@ -236,7 +236,19 @@ a:hover {
 	background-size: cover;
 }
 
+#portfolio-banner-img {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
 #testimonials-banner-img {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+#skillset-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
 	background-size: cover;

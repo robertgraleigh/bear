@@ -96,7 +96,8 @@ block content
 	section(id='education')
 		div(class='ui internally celled padded grid')
 			div(id='education-banner-img', class='ui six wide column')
-				h3(class='ui right aligned header') Education
+				h3(class='ui right aligned header', style="font-size: 5rem; color: #f7f7f7 !important;")
+					span(class='blue bottom border') Education
 			div(class='ui nine wide column')
 				ul(class='ui vertical list')
 								div(class='ui item')
@@ -118,28 +119,23 @@ block content
 								div(class='ui item')
 									span Shift Leader, at Oregon Health Sciences University
 
-	section(id='technical-skills', class='ui straight grey segment')
+	section(id='skillset')
 		div(class='ui internally celled padded grid')
-			div(id='technical-skills-banner-img', class='ui six wide column')
-				h3(class='ui right aligned header') Technical Skills
+			div(id='skillset-banner-img', class='ui seven wide column')
+				h2(class='ui uppercase grey right aligned header', style="font-size: 5rem; color: #f7f7f7 !important;")
+					span(class='blue bottom border') Skillset
 			div(class='ui nine wide column')
+				p This is the area for the technical skills
 
-
-	section(id='portfolioSection', class='ui straight grey segment')
-		div(class='ui container')
-			div(class='ui padded grid')
-				div(class='ui row')
-					div(class='ui sixteen wide center aligned column')
-						h2(class='ui uppercase header')
-							span(class='blue bottom border') Portfolio
-				div(class='ui row')
-					div(class='ui eight wide column')
-						img(src='http://placehold.it/500x300', alt='Portfolio image')
-					div(class='ui eight wide column')
-						div(class='ui grey segment')
-							h2(class='ui header') Portfolio
-							h3(class='ui header') Visit the portfolio
-							a(href='/portfolio', class='ui blue button') View portfolio
+	section(id='portfolio')
+		div(class='ui internally celled padded grid')
+			div(id='portfolio-banner-img', class='ui nine wide column')
+				h2(class='ui uppercase grey right aligned header', style="font-size: 5rem; color: #f7f7f7 !important;")
+					span(class='blue bottom border') Portfolio
+			div(class='ui seven wide column')
+				h2(class='ui header') Portfolio
+					h3(class='ui header') Visit the portfolio
+					a(href='/portfolio', class='ui blue button') View portfolio
 
 	section(id='testimonials-section')
 		div(class='ui internally celled padded grid')
