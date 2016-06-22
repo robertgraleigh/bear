@@ -242,6 +242,13 @@ a:hover {
 	background-size: cover;
 }
 
+#contact-banner-img {
+	z-index: 1;
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
 .ui.straight.grey.segment {
 	box-shadow: 0px 0px 0px 0px;
 	border-top: solid 1px #d4d4d0 !important;
