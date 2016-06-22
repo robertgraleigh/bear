@@ -230,6 +230,12 @@ a:hover {
 	background-size: cover;
 }
 
+#about-robert-banner-img {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
 #roberts-story-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
@@ -237,6 +243,12 @@ a:hover {
 }
 
 #employment-banner-img {
+	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+#volunteer-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
 	background-size: cover;
