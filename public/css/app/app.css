@@ -199,6 +199,12 @@ a:hover {
 	background-size: cover;
 }
 
+#our-mission-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 #our-story-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
@@ -212,7 +218,13 @@ a:hover {
 }
 
 #education-section-banner-img {
-	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
+#our-values-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
 }

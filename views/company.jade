@@ -5,7 +5,7 @@ block content
 	header(id='company-header')
 		div(class='ui internally celled padded grid')
 			div(id='company-header-banner-img', class='ui nine wide grey column')
-				h1(class='ui uppercase right aligned header', style="font-size: 5rem; color: #f7f7f7;")
+				h2(class='ui uppercase right aligned header', style="font-size: 5rem; color: #f7f7f7;")
 					span(class='blue bottom border') #{pageHeader.title}
 			div(class='ui seven wide column')
 				h3(class='ui uppercase header') This is the placeholder content for the company and other stuff.
@@ -24,14 +24,14 @@ block content
 				p This is the fourth paragraph of the story section.
 				p This is the fifth paragraph of the story section.
 			div(id='our-story-banner-img', class='ui nine wide column')
-				h1(class='ui uppercase left aligned grey header', style="font-size: 5rem;")
+				h1(class='ui uppercase left aligned header', style="font-size: 5rem; color: #f7f7f7;")
 					span(class='blue bottom border') Our Story
 
 	section(id='our-mission')
 		div(class='ui internally celled padded grid')
-			div(class='ui nine wide column')
-				h2(class='ui right aligned uppercase header', style="font-size: 5rem;")
-									span(class='blue bottom border') Mission
+			div(id='our-mission-banner-img', class='ui nine wide column')
+				h2(class='ui uppercase right aligned header', style="font-size: 5rem; color: #f7f7f7;")
+					span(class='blue bottom border') Mission
 			div(class='ui seven wide column')
 				img(src='http://placehold.it.500x300', class='ui image')
 				p This is the first paragraph of the story section.
@@ -40,10 +40,10 @@ block content
 				p This is the fourth paragraph of the story section.
 				p This is the fifth paragraph of the story section.
 
-	section(id='')
+	section(id='our-values')
 		div(class='ui internally celled padded grid')
 			div(class='ui row')
-				div(class='ui nine wide column')
+				div(id='our-values-banner-img', class='ui nine wide column')
 					h2(class='ui uppercase right aligned grey header', style="font-size: 5rem;")
 						span(class='blue bottom border') Values
 				div(class='ui seven wide column')
