@@ -229,6 +229,12 @@ a:hover {
 	background-size: cover;
 }
 
+#ventures-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 .inverted.grey.segment {
 	background-color: #F3F4F6 !important;
 }
