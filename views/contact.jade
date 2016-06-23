@@ -2,14 +2,12 @@ extends layout
 
 block content
 	header(class='ui straight grey segment')
-		div(class='ui container')
-			div(class='ui padded grid')
-				div(class='ui ten wide column')
-					h1 #{headerSection.title}
-					h3 #{headerSection.subTitle}
-					p Welcome to #{headerSection.subCopy}
-				div(class='ui six wide column')
-					p This is the side box
+		div(class='ui internally celled padded grid')
+			div(id='contact-header-banner-img', class='ui nine wide column')
+				h1(class='ui uppercase right aligned grey header')
+					span(class='blue bottom border') #{headerSection.title}
+			div(class='ui seven wide column')
+				p This is the side box
 
 	section(id='ui straight blue segment')
 		div(class='ui container')

@@ -235,6 +235,13 @@ a:hover {
 	background-size: cover;
 }
 
+
+#contact-header-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 #contact-us-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
@@ -248,6 +255,11 @@ a:hover {
 .divider {
 	margin: 0px !important;
 	padding: 0px !important;
+}
+
+.ui.grey.uppercase.header {
+	font-size: 5rem !important;
+	color: #F9F9F9 !important;
 }
 
 .ui .item {

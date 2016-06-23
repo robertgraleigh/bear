@@ -3,7 +3,7 @@
   module.exports.contact = function(req, res) {
     res.render('contact', {
       headerSection: {
-        title: 'Contact',
+        title: 'Contact Us',
         subTitle: 'This is the subtitle for the contact page.',
         subCopy: 'This is the supporting copy for the contact page.'
     	},
