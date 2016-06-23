@@ -193,6 +193,12 @@ a:hover {
 	background-size: cover;
 }
 
+#company-header-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 #education-section-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
