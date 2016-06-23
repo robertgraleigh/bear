@@ -11,22 +11,21 @@ block content
 				h2(class='ui uppercase header') Creating elegant products for small business owners
 				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
 				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
+				a(href='/contact', class='ui basic grey button') Contact Robert
+				a(href='/get-started', class='ui basic blue button') Get Started
 
 	section(id='products')
 		div(class='ui straight grey segment')
 			div(class='ui container')
-				div(class='ui padded grid')
+				div(class='ui internally celled padded grid')
 					div(class='ui sixteen wide column')
 						h2(class='ui blue header') This is the why I got into web development to build tools I needed for myself. But you don't have time to do it yourself.
 						h3(class='ui blue header') If you're not answering the phones, your doing other things.
 
 	section(id='products')
-		div(class='ui straight white segment')
-			div(class='ui container')
-				div(class='ui padded grid')
-					each product in products
-						div(class='ui five wide column')
-							div(class='ui raised blue segment')
-								h2(class='ui header') #{product.header}
-								p #{product.copy}
-								a(href='#{product.link}' class='ui basic blue button') #{product.button}
+		div(class='ui internally divided padded grid')
+			each product in products
+				div(class='ui five wide column')
+					h2(class='ui header') #{product.header}
+						p #{product.copy}
+						a(href='#{product.link}' class='ui basic blue button') #{product.button}
