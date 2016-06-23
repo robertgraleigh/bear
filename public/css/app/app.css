@@ -242,6 +242,13 @@ a:hover {
 	background-size: cover;
 }
 
+#contact-form-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
+
 #contact-us-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
