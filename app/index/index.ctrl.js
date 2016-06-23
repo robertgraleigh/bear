@@ -4,7 +4,7 @@
     res.render('index', {
       title: 'Bear - This is an app about the future',
       header: {
-        mainHeader: 'Bear',
+        mainHeader: 'Robert G. Raleigh',
         subHeader: 'This is the subtitle for the home page.'
     	},
       sections: [

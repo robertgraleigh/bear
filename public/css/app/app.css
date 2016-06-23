@@ -63,7 +63,7 @@ p {
 	font-size: 1rem;
 }
 
-#homeHeader {
+#home-header {
 	margin: 0px !important;
 	padding: 0px !important;
 }
@@ -217,7 +217,7 @@ a:hover {
 	text-transform: uppercase;
 }
 
-#homeHeaderBanner {
+#header-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
 	background-size: cover;
