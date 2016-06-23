@@ -11,30 +11,35 @@ block content
 				p This is the main thing about the company.
 				p This is the side box
 
-	section(id='ui straight blue segment')
-		div(class='ui container')
-			div(class='ui padded grid')
-				div(class='ui eight wide column')
-					div(class='ui grey segment')
-						h2(class='ui header') Contact Form
-						form(id='contactForm', class='ui form')
-							div(class='ui eight wide field')
-								input(type='text', placeholder='First Name')
-							div(class='ui eight wide field')
-								input(type='text', placeholder='Last Name')
-							div(class='ui eight wide field')
-								input(type='email', placeholder='Email address')
-							div(class='ui field')
-								a(class='ui blue button') Submit message
+	section(id='office')
+		div(class='ui internally celled padded grid')
+			div(class='ui seven wide column')
+				address 334 NW 11th Ave, Portland, OR 97204
+			div(id='office-banner-img', class='ui nine wide column')
+				h2(class='ui uppercase grey header') Office
 
-				div(class='ui eight wide column')
-					div(class='ui blue segment')
-						h2(class='ui header') Contact Info
-						address 334 NW 11th Ave, Portland, OR 97204
-							ul(class='ui vertical list')
-								li(class='ui item')
-									a(href='')
-									span robert@rgr.com
-								li(class='ui item')
-									a(href='')
-									span +1 (503) 502-6125
+	//
+		section(id='sticky-test', class='ui bound top sticky')
+		div(class='ui inverted blue straight segment')
+		div(class='ui blue menu navbar')
+		a(href='', class='ui item') Home
+		a(href='', class='ui item') About
+		a(href='', class='ui item') Contact
+		a(href='', class='ui item') Test
+		a(href='', class='ui item') Test
+		a(href='', class='ui item') Test
+		a(href='', class='ui item') Test
+
+	section(id='location')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h2(class='ui uppercase grey header') Offices
+			div(class='ui seven wide column')
+				address 334 NW 11th Ave, Portland, OR 97204
+
+	section(id='location')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column')
+				h2(class='ui uppercase grey header') Offices
+			div(class='ui seven wide column')
+				address 334 NW 11th Ave, Portland, OR 97204
