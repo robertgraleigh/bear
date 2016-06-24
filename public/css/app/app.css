@@ -398,3 +398,7 @@ a:hover {
 .ui.inverted.grey.segment {
 	background-color: #f9f9f9 !important;
 }
+
+.ui.grey.banner.header {
+	color: #f9f9f9;
+}

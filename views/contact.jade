@@ -1,23 +1,37 @@
 extends layout
 
 block content
+
 	header(class='ui straight grey segment')
 		div(class='ui internally celled padded grid')
 			div(id='contact-header-banner-img', class='ui nine wide column')
-				h1(class='ui uppercase right aligned grey header')
+				h2(class='ui uppercase grey uppercase right aligned header', style='color: #eeeeee !important; font-size: 5rem;')
 					span(class='blue bottom border') #{headerSection.title}
 			div(class='ui seven wide column')
 				h2(class='ui header') Raleigh &amp; Co. is a digital agency.
-				p This is the main thing about the company.
-				p This is the side box
+				p This is the main thing about the company. Consolidating your business operations.
+				p We help small business owners adapt to a changing marketplace. Online world.
+				div(class='ui horizontal list')
+					div(class='ui item')
+						a(href='mailto:robert@raleighand.co', class='ui basic blue button') Email us
+					div(class='ui item')
+						a(href='tel:+15035026125', class='ui basic grey button') Call us
 
 	section(id='office')
 		div(class='ui internally celled padded grid')
 			div(class='ui seven wide column')
-				address 334 NW 11th Ave, Portland, OR 97204
+				h3(class='ui uppercase header') Raleigh &amp; Co.
+				address 334 NW 11th Ave, br Portland, OR 97204
+				div(class='ui horizontal list')
+					div(class='ui item')
+						h3(class='ui header') Entrance
+						img(src='http://placehold.it/140x140', class='ui responsive image')
+					div(class='ui item')
+						h3(class='ui header') Get directions
+						img(src='http://placehold.it/140x140', class='ui responsive image')
 			div(id='office-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase grey header') Office
-
+				h2(class='ui uppercase grey uppercase header', style='color: #eeeeee !important; font-size: 5rem;')
+					span(class='blue bottom border') Office
 	//
 		section(id='sticky-test', class='ui bound top sticky')
 		div(class='ui inverted blue straight segment')
@@ -33,9 +47,10 @@ block content
 	section(id='social-media')
 		div(class='ui internally celled padded grid')
 			div(id='social-media-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase grey uppercase header')
+				h2(class='ui uppercase grey uppercase right aligned header', style='color: #eeeeee !important; font-size: 5rem;')
 					span(class='blue bottom border') Social Media
 			div(class='ui seven wide column')
+				h3(class='ui uppercase header') Connect with Us
 				div(class='ui vertical list')
 					div(class='ui item')
 						a(href='', class='') Twitter
@@ -44,8 +59,25 @@ block content
 
 	section(id='contact-form')
 		div(class='ui internally celled padded grid')
-			div(id='contact-form-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase grey uppercase header')
-					span(class='blue bottom border') Contact Form
 			div(class='ui seven wide column')
-				address 334 NW 11th Ave, Portland, OR 97204
+				div(class='ui segment')
+					form(class='ui padded form')
+						div(class='ui field')
+							label(for='name') Full Name
+							input(name='name', type='text', class='', placeholder='Enter your full name')
+						div(class='ui field')
+							label(for='lastName') Email Address
+							input(name='lastName', type='text', class='', placeholder='Enter your email address')
+						div(class='ui field')
+							label(for='subject') Phone Number
+							input(name='subject', type='text', class='', placeholder='Enter your phone number')
+						div(class='ui field')
+							label(for='message') Message
+							textarea(name='message', col=3, placeholder='Please enter your message here')
+						div(class='ui field')
+							input(type='submit', class='ui basic blue button')
+							input(type='reset' class='ui basic red button')
+
+			div(id='contact-form-banner-img', class='ui nine wide column')
+				h2(class='ui uppercase grey uppercase header', style='color: #eeeeee !important; font-size: 5rem;')
+					span(class='blue bottom border') Contact Form
