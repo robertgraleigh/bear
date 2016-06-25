@@ -136,7 +136,7 @@ a:hover {
 	margin: 0px !important;
 	padding: 0px !important;
 	color: #F9F9F9;
-	background-image: url("public/img/swirl_pattern.png") !important;
+	background-image: url("img/swirl_pattern.png") !important;
 }
 
 .inverted.lightgrey.segment {
@@ -190,6 +190,34 @@ a:hover {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+#products-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#services-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#company-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#portfolio-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}	
 
 #roberts-story-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
@@ -370,20 +398,20 @@ h2 .white .header {
 }
 
 #header-banner-img {
-	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-image: url(/public/img/dark_wood_@2X.png);
 	background-position: top;
 	background-size: cover;
 	text-align: center !important;
 }
 
 #about-robert-banner-img {
-	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-image: url(/public/img/billie_holiday.png);
 	background-position: top;
 	background-size: cover;
 }
 
-#services-header-banner-img {
-	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+#services-title-img {
+	background-image: url(../img/swirl_pattern.png);
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -445,10 +473,11 @@ h2 .white .header {
 	background-size: cover;
 }
 
-#spiral-banner-img {
-	background-image: url('/img/robert-g-raleigh.jpg');
+.swirl_banner_img {
+	background-image: url('img/swirl_pattern.png');
 	background-position: top;
 	background-size: cover;
+	background-repeat: repeat-x repeat-y;
 }
 
 #home-services-banner-img {
