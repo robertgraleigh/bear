@@ -21,47 +21,59 @@ footer {
   margin: 0px !important;
 }
 
+/* default h1 header settings */
 h1 {
 	/* font-size: 3rem !important; */
 	font-family: 'League Spartan';
 	font-weight: normal;
+	font-size: 5rem !important;
 	margin-top: 0px;
 }
 
+/* default h2 header settings */
 h2 {
-	font-family: 'League Spartan';
+	font-family: 'Lato';
 	font-weight: normal;
+	font-size: 3.25rem !important;
 	margin-top: 0px;
 }
 
+/* default h3 header settings */
 h3 {
-	font-family: 'League Spartan';
+	font-family: 'Lato';
 	font-weight: normal;
+	font-size: 1.75rem !important;
 	margin-top: 0px;
 }
 
+/* default h4 header settings */
 h4 {
-	font-family: 'League Spartan';
+	font-family: 'Lato';
 	font-weight: normal;
+	font-size: 1rem !important;
 	margin-top: 0px;
 }
 
+/* default h5 header settings */
 h5 {
-	font-family: 'League Spartan';
-	font-weight: normal;
+	font-family: 'Lato';
+	font-weight: normal !important;
+	font-size: 1rem;
 	margin-top: 0px;
 }
 
+/* default h6 header setting */
 h6 {
-	font-family: 'League Spartan';
+	font-family: 'Lato';
 	font-weight: normal;
+	font-size: 1rem !important;
 	margin-top: 0px;
 }
 
 p {
 	font-family: 'Georgia';
-	font-weight: normal;;
 	font-size: 1rem;
+	font-weight: normal;
 }
 
 /* controls the link color */
@@ -344,9 +356,8 @@ a:hover {
 	padding: 0px !important;
 }
 
-.ui.grey.uppercase.header {
-	font-size: 5rem !important;
-	color: #F9F9F9 !important;
+h2 .white .header {
+	color: #ffffff;
 }
 
 .ui .item {
@@ -473,6 +484,6 @@ a:hover {
 	color: #f9f9f9;
 }
 
-.ui.white.header {
+.ui.uppercase.white.header {
 	color: #ffffff !important;
 }

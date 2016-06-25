@@ -5,24 +5,26 @@ block content
 	header(id='company-header')
 		div(class='ui internally celled padded grid')
 			div(id='company-header-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase right aligned white header', style='font-size: 5rem;')
+				h2(class='ui right aligned uppercase white header')
 					span(class='blue bottom border') #{pageHeader.title}
 			div(class='ui seven wide column')
-				h3(class='ui uppercase header') This is the placeholder content for the company and other stuff.
-				p #{pageHeader.subTitle}
-				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
-				a(class='ui basic blue button') Test button
-				a(class='ui basic blue button') Test button
+				div(class='ui segment')
+					h3(class='ui uppercase header') This is the placeholder content for the company and other stuff.
+					p #{pageHeader.subTitle}
+					p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
+					a(class='ui basic blue button') Test button
+					a(class='ui basic blue button') Test button
 
 	section(id='our-story')
 		div(class='ui internally celled padded grid')
 			div(class='ui seven wide column')
-				h3(class='ui header') Founded in x, this is the main section
-				p This is the first paragraph of the story section we do things.
-				p This is the second paragraph of the story section.
-				p This is the third paragraph of the story section.
-				p This is the fourth paragraph of the story section.
-				p This is the fifth paragraph of the story section.
+				div(class='ui segment')
+					h3(class='ui header') Founded in x, this is the main section
+					p This is the first paragraph of the story section we do things.
+					p This is the second paragraph of the story section.
+					p This is the third paragraph of the story section.
+					p This is the fourth paragraph of the story section.
+					p This is the fifth paragraph of the story section.
 			div(id='our-story-banner-img', class='ui nine wide column')
 				h1(class='ui uppercase left aligned header', style="font-size: 5rem; color: #ffffff;")
 					span(class='blue bottom border') Our Story
@@ -33,19 +35,21 @@ block content
 				h2(class='ui uppercase right aligned header', style="font-size: 5rem; color: #ffffff !important;")
 					span(class='blue bottom border') Mission
 			div(class='ui seven wide column')
-				img(src='http://placehold.it.500x300', class='ui image')
-				p This is the first paragraph of the story section.
-				p This is the second paragraph of the story section.
-				p This is the third paragraph of the story section.
-				p This is the fourth paragraph of the story section.
-				p This is the fifth paragraph of the story section.
+				div(class='ui segment')
+					img(src='http://placehold.it.500x300', class='ui image')
+					p This is the first paragraph of the story section.
+					p This is the second paragraph of the story section.
+					p This is the third paragraph of the story section.
+					p This is the fourth paragraph of the story section.
+					p This is the fifth paragraph of the story section.
 
 	section(id='our-values')
 		div(class='ui internally celled padded grid')
 			div(class='ui seven wide column')
-				div(class='ui list')
-					div(class='ui item')
-						span Value one
+				div(class='ui segment')
+					div(class='ui list')
+						div(class='ui item')
+							span Value one
 			div(id='our-values-banner-img', class='ui nine wide column')
 				h2(class='ui uppercase left aligned grey header', style="font-size: 5rem; color: #ffffff !important;")
 					span(class='blue bottom border') Values
@@ -56,11 +60,12 @@ block content
 				h2(class='ui uppercase right aligned grey header', style="font-size: 5rem; color: #ffffff !important;")
 					span(class='blue bottom border') Ideal Clients
 			div(class='ui six wide left aligned column')
-				p This is the first paragraph of the story section.
-				p This is the second paragraph of the story section.
-				p This is the third paragraph of the story section.
-				p This is the fourth paragraph of the story section.
-				p This is the fifth paragraph of the story section.
+				div(class='ui segment')
+					p This is the first paragraph of the story section.
+					p This is the second paragraph of the story section.
+					p This is the third paragraph of the story section.
+					p This is the fourth paragraph of the story section.
+					p This is the fifth paragraph of the story section.
 
 	section(id='ventures')
 		div(class='ui internally celled padded grid')
@@ -100,15 +105,16 @@ block content
 				h2(class='ui uppercase right aligned grey header', style="font-size: 5rem; color: #ffffff !important;")
 					span(class='blue bottom border') Contact Us
 			div(class='ui seven wide column')
-				h3(class='ui header') RGR Ventures is a digital agency located in Portland, OR
-				img(src='http://placehold.it/140x140', class='ui image')
-				address 334 NW 11th Ave, Portland, OR 97204
-				ul(class='ui vertical list')
-					div(class='ui item')
-						a(href='')
-							span info@rgrventures.com
-					div(class='ui item')
-						a(href='')
-							span +1 (503) 502-6125
-				a(class='ui basic grey button') Email Robert
-				a(class='ui basic blue button') Call Robert
+				div(class='ui segment')
+					h3(class='ui header') RGR Ventures is a digital agency located in Portland, OR
+					img(src='http://placehold.it/140x140', class='ui image')
+					address 334 NW 11th Ave, Portland, OR 97204
+					ul(class='ui vertical list')
+						div(class='ui item')
+							a(href='')
+								span info@rgrventures.com
+						div(class='ui item')
+							a(href='')
+								span +1 (503) 502-6125
+					a(class='ui basic grey button') Email Robert
+					a(class='ui basic blue button') Call Robert
