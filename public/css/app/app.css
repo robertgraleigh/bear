@@ -63,19 +63,6 @@ p {
 	font-size: 1rem;
 }
 
-#home-header {
-	margin: 0px !important;
-	padding: 0px !important;
-}
-
-#home-ad {
-	background-image: url('/img/sos.png');
-	background-position: top left;
-	background-repeat: repeat;
-	background-size: cover;
-	opacity: 10%;
-}
-
 /* controls the link color */
 a {
 	color: #404040 !important;
@@ -170,14 +157,18 @@ a:hover {
 }
 
 /*
-	HOME
+	HOME VIEW
 */
-
 #home-header {
-	background-image: url('../img/placeholder-1920-734.png') !important;
+	margin: 0px 0px 0px 0px;
+}
+
+#home-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg') !important;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #about-header {
@@ -254,7 +245,6 @@ a:hover {
 	background-size: cover;
 }
 
-
 #contact-us-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
@@ -302,16 +292,17 @@ a:hover {
 	text-align: center !important;
 }
 
-#aboutHeaderBanner {
+#about-robert-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
 	background-size: cover;
 }
 
-#about-robert-banner-img {
-	background-image: url(http://loremflickr.com/g/759/427/portland);
+#services-header-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #roberts-story-banner-img {
@@ -338,12 +329,6 @@ a:hover {
 	background-size: cover;
 }
 
-#productsHeaderBanner {
-	background-image: url(http://loremflickr.com/g/759/427/portland);
-	background-position: top;
-	background-size: cover;
-}
-
 #portfolio-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
@@ -358,6 +343,12 @@ a:hover {
 
 #skillset-banner-img {
 	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+#services-banner-img {
+	background-image: url('/Applications/meanstack-3.2.6-2/apps/bear/public/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
 }
