@@ -272,6 +272,12 @@ a:hover {
 	background-size: cover;
 }
 
+#pricing-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 #our-values-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
