@@ -4,7 +4,7 @@ block content
 
 	header(id='portfolio-header')
 		div(class='ui internally celled padded grid')
-			div(id='servicesHeaderBanner', class='ui ten wide grey column')
+			div(id='portfolio-header-img', class='ui ten wide grey column')
 				h1(class='ui uppercase grey right aligned header', style="font-size: 7rem; color: #f7f7f7 !important;")
 					span(class='blue bottom border') #{banner.heading}
 				p #{banner.copy}
@@ -15,19 +15,13 @@ block content
 				a(class='ui basic blue button') #{box.buttonOne}
 				a(class='ui basic grey button') #{box.buttonTwo}
 
-	section(id='')
-		div(class='ui white segment')
-			div(class='ui container')
-				div(class='ui padded grid')
-					div(class='ui row')
-						div(class='ui sixteen wide center aligned column')
-							h2(class='ui uppercase header')
-								span(class="blue bottom border") Ideal Clients
-					div(class='ui row')
-						div(class='ui eight wide centered column')
-							div(class='ui white segment')
-								div(class='ui eight wide centered column')
-									p This is a eight wide column
+	section(id='ideal-clients')
+		div(class='ui internally celled padded grid')
+			div(id='ideal-clients-banner-img', class='ui seven wide column')
+				h2(class='ui uppercase right aligned inverted white header')
+					span(class="blue bottom border") Ideal Clients
+			div(class='ui nine wide left aligned column')
+				p This is a eight wide column detailing the different types of ideal clients.
 
 	section(id='')
 		div(class='ui inverted grey straight segment')
