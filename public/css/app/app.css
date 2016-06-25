@@ -472,3 +472,7 @@ a:hover {
 .ui.grey.banner.header {
 	color: #f9f9f9;
 }
+
+.ui.white.header {
+	color: #ffffff !important;
+}
