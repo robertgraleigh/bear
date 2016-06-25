@@ -164,15 +164,15 @@ a:hover {
 }
 
 #home-header-img {
-	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg') !important;
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-#about-header {
-	background-image: url('/public/img/fran-lebowitz.jpg') !important;
+#about-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
