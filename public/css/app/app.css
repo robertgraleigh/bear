@@ -235,6 +235,12 @@ a:hover {
 	background-size: cover;
 }
 
+#articles-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: top;
+	background-size: cover;
+	overflow: hidden;
+}
 
 #contact-header-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');

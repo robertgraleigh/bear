@@ -68,12 +68,24 @@ p {
 	padding: 0px !important;
 }
 
+#articles-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
 #home-ad {
 	background-image: url('/img/sos.png');
 	background-position: top left;
 	background-repeat: repeat;
 	background-size: cover;
 	opacity: 10%;
+}
+
+#blog-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
 }
 
 /* controls the link color */
@@ -257,7 +269,7 @@ a:hover {
 
 .ui.raised.segment:hover {
 	box-shadow: 0px 0px 0px 0px !important;
-	border-radius: 5px important;
+	border-radius: 5px !important;
 	border-right: solid 5px #2185d0 !important;
 	border-bottom: solid 5px #2185d0 !important;
 	cursor: pointer;
@@ -265,7 +277,7 @@ a:hover {
 
 .ui.raised.blue.segment {
 	box-shadow: 0px 0px 0px 0px !important;
-	border-radius: 5px important;
+	border-radius: 5px !important;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	border-top: solid 2px #2185d0 !important;

@@ -3,7 +3,7 @@
     var router = express.Router();
     var startCtrl = require('../start/start.ctrl.js');
 
-    router.get('/', startCtrl.start);
+    router.get('/start', startCtrl.start);
 
     module.exports = router;
 }());
