@@ -431,15 +431,28 @@ h2 .white .header {
 	background-size: cover;
 }
 
-#services-banner-img {
-	background-image: url('/Applications/meanstack-3.2.6-2/apps/bear/public/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+#products-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #contact-banner-img {
 	z-index: 1;
 	background-image: url(http://loremflickr.com/g/759/427/portland);
+	background-position: top;
+	background-size: cover;
+}
+
+#spiral-banner-img {
+	background-image: url('/img/robert-g-raleigh.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
+#home-services-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
 }
