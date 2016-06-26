@@ -4,99 +4,50 @@ block content
 
 	header(id='blog-header')
 		div(class='ui internally celled padded grid')
-			div(id='blog-banner-img', class='ui ten wide column')
-				h3(class='ui uppercase center aligned grey header')
+			div(id='blog-header-img', class='ui nine wide column')
+				h1(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') Blog
-				h1(class='ui uppercase grey header') A technology blog for non-technology people.
-				h3(class='ui uppercase grey header') I read this blog to help people understand the nuances of javascript development.
-			div(class='ui six wide column')
-				h3(class='ui uppercase header')
-					Articles, and resources for beginning and intermediate javascript developers.
+			div(class='ui seven wide column')
+				div(class='ui segment')
+					h3(class='ui uppercase header')
+						Articles, and resources for beginning and intermediate javascript developers.
+					p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
+					p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
+					a(class='ui basic blue button') Test button
+					a(class='ui basic blue button') Test button
+
+	section(id='blog-posts')
+		div(class='ui internally celled padded grid')
+			div(class='ui seven wide column')
+				h2(class='ui uppercase left aligned inverted grey header') 
+					span(class='blue bottom border') Latest Post title
+				span Post Author
+				p Blog post teaser
 				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
 				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
-				a(class='ui basic blue button') Test button
-				a(class='ui basic blue button') Test button
-
-	section(id='blog-sections')
-		div(class='ui internally celled centered padded grid')
-			div(id='articles-banner-img', class='ui three wide center aligned column')
-				a(href='/blog')
-					img(src='http://www.placehold.it/140x140')
-					a(class='ui basic grey button') Articles
-			div(id='articles-banner-img', class='ui three wide center aligned column')
-				a(href='/blog')
-					img(src='http://www.placehold.it/140x140')
-					a(class='ui basic grey button') Articles
-			div(id='articles-banner-img', class='ui three wide center aligned column')
-				a(href='/blog')
-					img(src='http://www.placehold.it/140x140')
-					a(class='ui basic grey button') Articles
-			div(id='articles-banner-img', class='ui three wide center aligned column')
-				a(href='/blog')
-					img(src='http://www.placehold.it/140x140')
-					a(class='ui basic grey button') Articles
-			div(id='articles-banner-img', class='ui three wide center aligned column')
-				a(href='/blog')
-					img(src='http://www.placehold.it/140x140')
-					h4(class='ui uppercase header') Articles
-
-	section(id='currentPost', class='ui raised straight grey segment')
-		div(class='ui container')
-			div(class='ui padded centered grid')
-				div(class='ui row')
-					div(class='ui sixteen wide column')
-						h2(class='ui uppercase center aligned header')
-							span(class='blue bottom border') Latest Post
-				div(class='ui row')
-					div(class='ui eight wide column')
-						h3(class='ui uppercase header') Current blog post
-						p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
-						p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the contracts I need in order to be successful.
-						a(class='ui basic blue button') Read more
-					div(class='ui six wide column')
-						img(src='http://loremflickr.com/g/759/427/portland', alt='Current image')
-
-	section(id='', class='ui straight grey segment')
-		div(class='ui white straight segment')
-			div(class='ui container')
-				div(class='ui padded centered grid')
-					div(class='ui row')
-						div(class='ui sixteen wide column')
-							h2(class='ui centered uppercase header') Recent Posts
-					div(class='ui row')
-						div(class='ui five wide column')
-							div(class='ui blue segment')
-								img(src='http://placehold.it/300x200')
-								h3(class='ui uppercase header') Blog heading
-								p This is some placeholder text for the blog post article.
-								a(class='ui basic blue button') Read more
-						div(class='ui five wide column')
-							div(class='ui blue segment')
-								img(src='http://placehold.it/300x200')
-								h3(class='ui uppercase header') Blog heading
-								p This is some placeholder text for the blog post article.
-								a(class='ui basic blue button') Read more
-						div(class='ui five wide column')
-							div(class='ui blue segment')
-								img(src='http://placehold.it/300x200')
-								h3(class='ui uppercase header') Blog heading
-								p This is some placeholder text for the blog post article.
-								a(class='ui basic blue button') Read more
-
-	section(id='')
-		div(class='ui inverted grey straight segment')
-			div(class='ui container')
-				div(class='ui padded centered grid')
-					div(class='ui row')
-						h2(class='ui uppercase header') Categories
-					each category in categories
-						div(class='ui five wide column')
-							div(class='ui blue segment')
-								div(class='ui image')
-									img(src='http://www.placehold.it/300x200')
-									div(class='content')
-										div(class='header')
-											h3(class='ui uppercase heading') #{category.name}
-											div(class='description')
-												p A simple website is used to promote a good or service. Works as information or signup , or simple marketing functions.
-												a(href='', class='ui basic blue button') View posts
+			div(id='latest-post-banner-img', class='ui nine wide column')
+				h2(class='ui uppercase left aligned inverted white header')
+					span(class='blue bottom border') Latest Post
+				
+	section(id='blog-categories', class='')
+		div(class='ui internally celled padded two column grid')
+			div(id='categories-banner-img', class='ui seven wide column')
+				h2(class='ui right aligned uppercase inverted white header') 
+					span(class='blue bottom border') Categories
+			div(class='ui nine wide column')
+				div(class='ui items')
+					div(class='ui item')
+						img(src='/img/placeholder.png', class='ui tiny image')
+						h3(class='ui header') Books
+					div(class='ui item')
+						img(src='/img/placeholder.png', class='ui tiny image')
+						h3(class='ui header') Links
+					div(class='ui item')
+						img(src='/img/placeholder.png', class='ui tiny image')
+						h3(class='ui header') Articles
+					div(class='ui item')
+						img(src='/img/placeholder.png', class='ui tiny image')
+						h3(class='ui header') Resources
+					div(class='ui item')					
+						img(src='/img/placeholder.png', class='ui tiny image')
+						h3(class='ui header') Tools

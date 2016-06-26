@@ -176,6 +176,11 @@ a:hover {
 	margin: 0px 0px 0px 0px;
 }
 
+/* ============
+	Header Images
+*/ ============
+
+/* displays image in home header */
 #home-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
@@ -184,6 +189,7 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
+/* displays image in about header */
 #about-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
@@ -191,6 +197,7 @@ a:hover {
 	background-size: cover;
 }
 
+/* displays image in products header */
 #products-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
@@ -198,6 +205,7 @@ a:hover {
 	background-size: cover;
 }
 
+/* displays image in services header */
 #services-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
@@ -205,6 +213,7 @@ a:hover {
 	background-size: cover;
 }
 
+/* displays image in company header */
 #company-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
@@ -212,12 +221,37 @@ a:hover {
 	background-size: cover;
 }
 
+/* displays image in portfolio header */
 #portfolio-header-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 }	
+
+/* displays image in blog header */
+#blog-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}	
+
+/* displays image in contact header */
+#contact-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* displays image in start header */
+#start-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 #roberts-story-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
@@ -468,14 +502,25 @@ h2 .white .header {
 }
 
 #contact-banner-img {
-	z-index: 1;
 	background-image: url(http://loremflickr.com/g/759/427/portland);
 	background-position: top;
 	background-size: cover;
 }
 
-.swirl_banner_img {
-	background-image: url('img/swirl_pattern.png');
+#latest-post-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
+#categories-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+}
+
+#swirl_banner_img {
+	background-image: url('/img/swirl_pattern.png');
 	background-position: top;
 	background-size: cover;
 	background-repeat: repeat-x repeat-y;
