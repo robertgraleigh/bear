@@ -19,27 +19,23 @@ block content
 		div(class='ui internally celled padded grid')
 			div(class='ui seven wide left aligned column')
 				div(class='ui segment')
+					h3(class='ui header') The ideal clients are nonprofit, creatives, small-to-mid size businesses.
 					p This is a eight wide column detailing the different types of ideal clients.
 			div(id='ideal-clients-banner-img', class='ui nine wide column')
 				h2(class='ui uppercase left aligned inverted white header')
 					span(class="blue bottom border") Ideal Clients
 
-	section(id='')
-		div(class='ui inverted grey straight segment')
-			div(class='ui container')
-				div(class='ui padded grid')
-					div(class='ui row')
-						div(class='ui sixteen wide column')
-							h2(class='ui uppercase centered header') Projects
-					div(class='ui row')
-						div(class='ui three cards')
-							each project in projects
-								div(class='ui card')
-									div(class='ui image')
-										img(src='http://www.placehold.it/300x200')
-									div(class='content')
-										div(class='header')
-											h3(class='ui uppercase heading') #{project.company}
-										div(class='description')
-											p A simple website is used to promote a good or service. Works as information or signup , or simple marketing functions.
-											a(href='', class='ui basic blue button') Visit Website
+	section(id='past-projects')
+		div(class='ui internally celled padded grid')
+			div(id='past-projects-banner-img', class='ui six wide column')
+				h2(class='ui uppercase right aligned inverted grey header') 
+					span(class='blue bottom border') Projects
+			div(class='ui ten wide column')
+				div(class='ui segment')
+					div(class='ui divided items')
+						each project in projects
+							div(class='ui item')
+								img(src='/img/placeholder.png', class='ui responsive image')
+								div(class='middle aligned content')
+									h3(class='ui uppercase heading') #{project.company}
+									p A simple website is used to promote a good or service. Works as information or signup , or simple marketing

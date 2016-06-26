@@ -181,12 +181,11 @@ a:hover {
 */ ============
 
 /* displays image in home header */
-#home-header-img {
-	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+#home-img {
+	background-image: url(/public/img/placeimg_1000_1000_grayscale_tech_4.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 /* displays image in about header */
@@ -517,6 +516,13 @@ h2 .white .header {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
 	background-size: cover;
+}
+
+#past-projects-banner-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #location-banner-img {
