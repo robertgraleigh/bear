@@ -16,21 +16,21 @@
 			},
 			services: [
 				{
-					header: 'Web Development',
+					header: 'Website Development',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					image: 'http://loremflickr.com/g/500/300/portland',
 					link: 'products/websites',
 					button: 'Explore Web Development'
 				},
 				{
-					header: 'Web Design',
+					header: 'Website Design',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					image: 'http://loremflickr.com/g/500/300/portland',
 					link: 'products/e-commerce',
 					button: 'Explore website Maintenance'
 				},
 				{
-					header: 'Web Maintenance',
+					header: 'Website Maintenance',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					image: 'http://loremflickr.com/g/500/300/portland',
 					link: 'products/cms-systems',
@@ -55,6 +55,13 @@
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					image: 'http://loremflickr.com/g/500/300/portland',
 					link: 'products/cms-systems',
+					button: 'Explore branding'
+				},
+				{
+					header: 'Consulting',
+					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+					image: 'http://loremflickr.com/g/500/300/portland',
+					link: 'products/consulting',
 					button: 'Explore branding'
 				}
 			]

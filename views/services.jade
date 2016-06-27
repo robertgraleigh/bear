@@ -7,7 +7,7 @@ block content
 	header(id='services-header')
 		div(class='ui internally celled padded grid')
 			div(id='services-header-img', class='ui nine wide column')
-				h1(class='ui uppercase grey right aligned header', style="font-size: 6rem; color: #f7f7f7 !important;")
+				h1(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') #{banner.heading}
 					p #{banner.copy}
 			div(class='ui seven wide column')
@@ -17,22 +17,18 @@ block content
 				a(class='ui basic blue button') #{box.buttonOne}
 				a(class='ui basic grey button') #{box.buttonTwo}
 
-	section(id='services')
-		div(class='ui straight grey segment')
-			div(class='ui container')
-				div(class='ui padded centered grid')
-					div(class='ui row')
-						div(class='ten wide column')
-							h2(class='ui uppercase grey center aligned header', style='font-size: 2rem;')
-								span(class='bottom blue border') Digital Services
-							h3(class='ui grey center aligned header') This is the final supporting content for the top section of the website. This carries on the meaning of the page for people who scan.
-					div(class='ui row')
-					each service in services
-							div(class='ui five wide column')
-								div(class='ui raised segment')
-									h3(class='ui uppercase grey header') #{service.header}
-									p(class='ui text') #{service.copy}
-									a(class='ui basic blue button') #{service.button}
+	section(id='digital-services')
+		div(class='ui internally celled padded grid')
+			div(class='nine wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted white header')
+					span(class='bottom blue border') Services
+				h3(class='ui grey right aligned header') This is the final supporting content for the top section of the website. This carries on the meaning of the page for people who scan.
+			div(class='ui seven wide column')
+				each service in services
+					div(class='ui raised segment')
+						h3(class='ui uppercase grey header') #{service.header}
+						p(class='ui text') #{service.copy}
+						a(class='ui basic blue button') #{service.button}
 							
 	section(id='service-packages')
 		div(class='ui internally celled padded grid')
