@@ -428,6 +428,13 @@ h2 .white .header {
 	margin-bottom: 0px !important;
 }
 
+a.ui.footer.links {
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-size: 1rem;
+	font-weight: normal;
+	color: #F7F7F7 !important;
+}
+
 #copyright-notice {
 	font-family: 'Georgia', 'Times New Roman', serif;
 	font-weight: normal;
