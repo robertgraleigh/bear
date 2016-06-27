@@ -2,9 +2,9 @@ extends layout
 
 block content
 
-	header(id='productsHeader')
+	header(id='products-header')
 		div(class='ui internally celled padded grid')
-			div(id='products-header-img', class='ui nine wide black column')
+			div(id='products-header-img', class='ui nine wide column')
 				h1(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') Products
 			div(class='ui seven wide column')
@@ -15,19 +15,16 @@ block content
 					a(href='/contact', class='ui basic grey button') Contact Robert
 					a(href='/get-started', class='ui basic blue button') Get Started
 
-	section(id='products')
-		div(class='ui straight grey segment')
-			div(class='ui container')
-				div(class='ui internally celled padded grid')
-					div(class='ui sixteen wide column')
-						h2(class='ui blue header') This is the why I got into web development to build tools I needed for myself. But you don't have time to do it yourself.
-						h3(class='ui blue header') If you're not answering the phones, your doing other things.
-
-	section(id='products')
+	section(id='product-types')
 		div(class='ui internally divided padded grid')
-			div(class='ui items')
-				each product in products
-					div(class='ui item')
-						h2(class='ui header') #{product.header}
-							p #{product.copy}
-							a(href='#{product.link}' class='ui basic blue button') #{product.button}
+			div(class='ui seven wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted white header') 
+					span(class='blue bottom border') Products			 	
+			div(class='ui nine wide column')
+				div(class='ui segment')
+					div(class='ui divided items')
+						each product in products
+							div(class='ui item')
+								h3(class='ui header') #{product.header}
+									p #{product.copy}
+									a(href='#{product.link}' class='ui basic blue button') #{product.button}

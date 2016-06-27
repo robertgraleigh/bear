@@ -14,7 +14,7 @@
 					button: 'View website packages'
 				},
 				{
-					header: 'Online Shops',
+					header: 'Online Store',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					link: 'products/e-commerce',
 					button: 'View e-commerce packages'

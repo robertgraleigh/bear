@@ -549,6 +549,13 @@ a.ui.footer.links {
 	background-repeat: repeat-x repeat-y;
 }
 
+.pattern_banner_img {
+	background-image: url('/img/footer_lodyas.png');
+	background-position: top;
+	background-size: cover;
+	background-repeat: repeat-x repeat-y;
+}
+
 #home-services-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech_1.jpg');
 	background-position: top;
