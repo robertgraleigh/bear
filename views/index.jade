@@ -4,7 +4,7 @@ block content
 
 	header(id='home-header')
 		div(class='ui internally celled padded grid')
-			div(id='home-img', class='ui nine wide column')
+			div(id='swirl_banner_img', class='ui nine wide column')
 				h1(class='ui uppercase center aligned inverted white header')
 					span(class='blue bottom border') #{header.mainHeader}
 				h3(class='ui center aligned header', style="font-size: 2rem; color: #f7f7f7 !important;") #{header.subHeader}
@@ -49,22 +49,32 @@ block content
 				h2(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') Benefits
 			div(class='ui nine wide column')
-				div(class='ui items')
-					div(class='item')
+				div(class='ui divided items')
+					div(class='ui item')
 						div(class='image')
 							img(src='/img/placeholder.png')
-							div(class='content')
+						div(class='middle aligned content')
 							a(class='header') Header
-								div(class='meta')
-									span Description
-									div(class='description')
-									div(class='extra')
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
 									span Additional Details
-						div(class='item')
-							div(class='image')
-								img(src='/img/placeholder.png')
-							div(class='content')
-								a(class='header') Header
+					div(class='ui item')
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
+					div(class='ui item')
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='header') Header
 							div(class='meta')
 								span Description
 							div(class='description')
@@ -73,79 +83,108 @@ block content
 
 	section(id='products')
 		div(class='ui internally celled padded grid')
-			div(class='ui seven wide column swirl_banner_img')
+			div(id='swirl_banner_img', class='ui seven wide column')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Products
 			div(class='ui nine wide column')
 				div(class='ui divided items')
 					div(class='ui item')
-						div(class='ui segment')
-							div(class='ui image')
-								img(src='/img/placeholder.png')
-							div(class='content')
-								a(class='header') Header
-								div(class='description')
-									p Coding at Metal Toad is a description
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='') 
+								h3(class='ui header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
 					div(class='ui item')
-						div(class='ui segment')
-							div(class='ui image')
-								img(src='/img/placeholder.png')
-							div(class='content')
-								a(class='header') Header
-								div(class='description')
-									p This is another coding test at Metal Toad.
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='')
+								h3(class='ui header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
+					div(class='ui item')
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
 
 	section(id='services')
 		div(class='ui internally celled padded grid')
-			div(class='ui nine wide column')
+			div(id='swirl_banner_img', class='ui eight wide column')
+				h2(class='ui right aligned uppercase inverted white header')
+					span(class='blue bottom border') Services
+			div(class='ui eight wide column')
 				div(class='ui divided items')
 					div(class='ui item')
-						div(class='ui segment')
-							div(class='ui image')
-								img(src='/img/placeholder.png')
-							div(class='content')
-								a(class='header') Header
-								div(class='description')
-									p Coding at Metal Toad is a description
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='') 
+								h3(class='ui header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
 					div(class='ui item')
-						div(class='ui segment')
-							div(class='ui image')
-								img(src='/img/placeholder.png')
-							div(class='content')
-								a(class='header') Header
-									div(class='description')
-										p This is another coding test at Metal Toad.
-			div(class='ui seven wide column swirl_banner_img')
-				h2(class='ui left aligned uppercase inverted white header')
-					span(class='blue bottom border') Services
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='')
+								h3(class='ui header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
+					div(class='ui item')
+						div(class='image')
+							img(src='/img/placeholder.png')
+						div(class='middle aligned content')
+							a(class='header') Header
+							div(class='meta')
+								span Description
+							div(class='description')
+								div(class='extra')
+									span Additional Details
 
-	section(id='services-pricing')
+	section(id='pricing')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui six wide column')
+			div(id='swirl_banner_img', class='ui seven wide column')
 				h2(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') Services Pricing
-			div(class='ui ten wide column')
-				div(class='ui raised segment')
-					h2(class='ui header') Content Services
-					p No project is too big or too small
-					b Starting at
-					h2(class='ui blue header') $479 / month
-					a(href='/start', class='ui blue button') Get started
-						div(class='ui four wide column')
-							div(class='ui raised segment')
-								h2(class='ui header') Web Services
-								p No project is too big or too small
-								h2(class='ui blue header') $643.5 / month
-								a(href='/start', class='ui blue button') Get started
-						div(class='ui four wide column')
-							div(class='ui raised segment')
-								h2(class='ui header') Even more basic
-								p No project is too big or too small
-								h2(class='ui blue header') $808.5 / month
-								a(href='/start', class='ui blue button') Get started
-						div(class='ui four wide column')
-							div(class='ui raised segment')
-								h2(class='ui header') Not basic at all
-								p No project is too big or too small
-								h2(class='ui blue header') $973.5 /month
-								a(href='/start', class='ui blue button') Get started
+			div(class='ui nine wide column')
+				div(class='ui segment')
+					div(class='ui divided items')
+						div(class='ui item')
+							h3(class='ui header') Content Services
+							p No project is too big or too small
+							h2(class='ui blue header') $479 / month
+						div(class='ui item')
+							h3(class='ui header') Web Services
+							p No project is too big or too small
+							h2(class='ui blue header') $643.5 / month
+							a(href='/start', class='ui blue button') Get started
+						div(class='ui item')
+							h3(class='ui header') Even more basic
+							p No project is too big or too small
+							h2(class='ui blue header') $808.5 / month
+							a(href='/start', class='ui blue button') Get started
+						div(class='ui item')
+							h3(class='ui header') Not basic at all
+							p No project is too big or too small
+							h2(class='ui blue header') $973.5 /month
+							a(href='/start', class='ui blue button') Get started
