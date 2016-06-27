@@ -43,6 +43,7 @@ block content
 						img(src='/img/placeholder.png', class='ui responsive centered image')
 						h3(class='ui uppercase header') Articles
 
+	// GET the benefits from index controller
 	section(id='benefits')
 		div(class='ui internally celled padded grid')
 			div(id='swirl_banner_img', class='ui seven wide column')
@@ -62,6 +63,7 @@ block content
 									div(class='extra')
 										span Additional Details
 
+	// GET the products from index controller 
 	section(id='products')
 		div(class='ui internally celled padded grid')
 			div(id='swirl_banner_img', class='ui six wide column')
@@ -81,42 +83,22 @@ block content
 									div(class='extra')
 										span Additional Details
 
+	// GET the services from index controller
 	section(id='services')
 		div(class='ui internally celled padded grid')
 			div(class='ui ten wide column')
 				div(class='ui divided items')
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='') 
-								h3(class='ui header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='')
-								h3(class='ui header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
+					each product in products
+						div(class='ui item')
+							div(class='image')
+								img(src='#{service.image}')
+							div(class='middle aligned content')
+								a(class='header') #{service.header}
+								div(class='meta')
+									span #{service.description}
+								div(class='description')
+									div(class='extra')
+										span Additional Details
 			div(id='swirl_banner_img', class='ui six wide column')
 				h2(class='ui left aligned uppercase inverted white header')
 					span(class='blue bottom border') Services

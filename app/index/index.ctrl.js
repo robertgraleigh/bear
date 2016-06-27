@@ -54,6 +54,23 @@
           description: 'This is the third product of the home page.',
 					image: '/img/placeholder.png'
         }
+      ],
+      services: [
+        {
+          header: 'Services one',
+          description: 'This is the first product of the home page.',
+					image: '/img/placeholder.png'
+        },
+        {
+          header: 'Services two',
+          description: 'This is the second product of the home page.',
+					image: '/img/placeholder.png'
+        },
+        {
+          header: 'Services three',
+          description: 'This is the third product of the home page.',
+					image: '/img/placeholder.png'
+        }
       ]
     });
   };
