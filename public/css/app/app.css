@@ -428,8 +428,10 @@ h2 .white .header {
 	margin-bottom: 0px !important;
 }
 
-#copyright {
-	text-transform: uppercase;
+#copyright-notice {
+	font-family: 'Georgia', 'Times New Roman', serif;
+	font-weight: normal;
+	font-size: 1rem;
 }
 
 #header-banner-img {
