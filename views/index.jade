@@ -50,36 +50,17 @@ block content
 					span(class='blue bottom border') Benefits
 			div(class='ui nine wide column')
 				div(class='ui divided items')
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
+					each benefit in benefits
+						div(class='ui item')
+							div(class='image')
+								img(src='#{benefit.image}')
+							div(class='middle aligned content')
+								a(class='header') #{benefit.header}
+								div(class='meta')
+									span #{benefit.description}
+								div(class='description')
+									div(class='extra')
+										span Additional Details
 
 	section(id='products')
 		div(class='ui internally celled padded grid')
@@ -88,38 +69,17 @@ block content
 					span(class='blue bottom border') Products
 			div(class='ui ten wide column')
 				div(class='ui divided items')
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='') 
-								h3(class='ui header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='')
-								h3(class='ui header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
-					div(class='ui item')
-						div(class='image')
-							img(src='/img/placeholder.png')
-						div(class='middle aligned content')
-							a(class='header') Header
-							div(class='meta')
-								span Description
-							div(class='description')
-								div(class='extra')
-									span Additional Details
+					each product in products
+						div(class='ui item')
+							div(class='image')
+								img(src='#{product.image}')
+							div(class='middle aligned content')
+								a(class='header') #{product.header}
+								div(class='meta')
+									span #{product.description}
+								div(class='description')
+									div(class='extra')
+										span Additional Details
 
 	section(id='services')
 		div(class='ui internally celled padded grid')
