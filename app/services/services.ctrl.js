@@ -64,6 +64,36 @@
 					link: 'products/consulting',
 					button: 'Explore branding'
 				}
+			],
+			packages: [
+				{
+					header: 'Package Level One',
+					description: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+					image: 'http://loremflickr.com/g/500/300/portland',
+					link: 'products/websites',
+					button: 'Explore Web Development'
+				},
+				{
+					header: 'Package Level Two',
+					description: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+					image: 'http://loremflickr.com/g/500/300/portland',
+					link: 'products/websites',
+					button: 'Explore Web Development'
+				},
+				{
+					header: 'Package Level Three',
+					description: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+					image: 'http://loremflickr.com/g/500/300/portland',
+					link: 'products/websites',
+					button: 'Explore Web Development'
+				},
+				{
+					header: 'Package Level Four',
+					description: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+					image: 'http://loremflickr.com/g/500/300/portland',
+					link: 'products/websites',
+					button: 'Explore Web Development'
+				}
 			]
 		});
 	}

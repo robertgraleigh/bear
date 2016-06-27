@@ -1,3 +1,5 @@
+// products.jade
+
 extends layout
 
 block content
@@ -21,10 +23,8 @@ block content
 				h2(class='ui uppercase right aligned inverted white header') 
 					span(class='blue bottom border') Products			 	
 			div(class='ui nine wide column')
-				div(class='ui segment')
-					div(class='ui divided items')
-						each product in products
-							div(class='ui item')
-								h3(class='ui header') #{product.header}
-									p #{product.copy}
-									a(href='#{product.link}' class='ui basic blue button') #{product.button}
+				each product in products
+					div(class='ui segment')
+						h3(class='ui header') #{product.header}
+							p	#{product.copy}
+							a(href='#{product.link}' class='ui basic blue button') #{product.button}
