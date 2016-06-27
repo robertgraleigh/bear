@@ -588,3 +588,10 @@ h2 .white .header {
 .ui.uppercase.white.header {
 	color: #ffffff !important;
 }
+
+.blue-price {
+	font-family: 'League Spartan';
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #2185D0;
+}
