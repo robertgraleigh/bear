@@ -81,13 +81,14 @@ p {
 	font-weight: normal;
 }
 
-/* controls the link color */
+/* controls the default link color */
 a {
 	color: #404040 !important;
   /* color: #00B7FF; */
 	/* color: #222222; */
 }
 
+/* controls the default link:hover color */
 a:hover {
 	color: #444444;
 	/* color: #2185D0 !important; */
@@ -182,9 +183,9 @@ a:hover {
 	margin: 0px 0px 0px 0px;
 }
 
-/* ============
+/* ==============
 	Header Images
-*/ ============
+============== */
 
 /* displays image in home header */
 #home-img {
@@ -547,15 +548,9 @@ a.ui.footer.links {
 	background-repeat: no-repeat;
 }
 
-#swirl_banner_img {
-	background-image: url('/img/footer_lodyas.png');
-	background-position: top;
-	background-size: cover;
-	background-repeat: repeat-x repeat-y;
-}
-
+/* controls the pattern banner img */
 .pattern_banner_img {
-	background-image: url('/img/lodyas_pattern.jpg');
+	background-image: url('/img/lodyas.jpg');
 	background-position: top;
 	background-repeat: repeat-x repeat-y;
 }
