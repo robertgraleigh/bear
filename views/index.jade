@@ -1,3 +1,5 @@
+// index.jade 
+
 extends layout
 
 block content
@@ -66,10 +68,10 @@ block content
 	// GET the products from index controller 
 	section(id='products')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui six wide column')
+			div(id='swirl_banner_img', class='ui seven wide column')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Products
-			div(class='ui ten wide column')
+			div(class='ui nine wide column')
 				div(class='ui divided items')
 					each product in products
 						div(class='ui item')
@@ -86,19 +88,18 @@ block content
 	// GET the services from index controller
 	section(id='services')
 		div(class='ui internally celled padded grid')
-			div(class='ui ten wide column')
-				div(class='ui divided items')
-					each service in services
-						div(class='ui item')
-							div(class='image')
-								img(src='#{service.image}')
-							div(class='middle aligned content')
-								a(class='header') #{service.header}
-								div(class='meta')
-									span #{service.description}
-								div(class='description')
-									div(class='extra')
-										span Additional Details
-			div(id='swirl_banner_img', class='ui six wide column')
+			div(id='swirl_banner_img', class='ui seven wide column')
 				h2(class='ui left aligned uppercase inverted white header')
 					span(class='blue bottom border') Services
+			div(class='ui nine wide column')
+				each service in services
+					div(class='ui raised segment')
+						div(class='image')
+							img(src='#{service.image}')
+						div(class='middle aligned content')
+							a(class='header') #{service.header}
+							div(class='meta')
+								span #{service.description}
+							div(class='description')
+								div(class='extra')
+									span Additional Details

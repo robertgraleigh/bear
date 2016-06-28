@@ -1,22 +1,27 @@
+/* default html styles */
 html {
 	font-size: 1rem;
 }
 
+/* default body styles */
 body {
 	background-color: #ffffff;
   font-family: 14px "Lucida Grande", "Helvetica", "Arial", sans-serif;
 }
 
+/* default header styles */
 header {
 	margin: 0px !important;
 	padding: 0px !important;
 }
 
+/* default section styles */
 section {
 	margin: 0px !important;
 	border-top: solid 2px #D4D4D5 !important;
 }
 
+/* default footer styles */
 footer {
   margin: 0px !important;
 }
@@ -550,9 +555,8 @@ a.ui.footer.links {
 }
 
 .pattern_banner_img {
-	background-image: url('/img/footer_lodyas.png');
+	background-image: url('/img/lodyas_pattern.jpg');
 	background-position: top;
-	background-size: cover;
 	background-repeat: repeat-x repeat-y;
 }
 
