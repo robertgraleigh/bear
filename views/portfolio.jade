@@ -4,11 +4,11 @@ block content
 
 	header(id='portfolio-header')
 		div(class='ui internally celled padded grid')
-			div(id='portfolio-header-img', class='ui ten wide grey column')
+			div(id='portfolio-header-img', class='ui nine wide grey column')
 				h1(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') #{banner.heading}
 				p #{banner.copy}
-			div(class='ui six wide column')
+			div(class='ui seven wide column')
 				h3(class='ui uppercase header') This is the header for the page
 				p #{box.copyOne}
 				p #{box.copyTwo}
@@ -24,13 +24,29 @@ block content
 				div(class='ui segment')
 					h3(class='ui header') The ideal clients are nonprofit, creatives, small-to-mid size businesses.
 					p This is a eight wide column detailing the different types of ideal clients.
+					
+	section(id='past-projects')
+		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted grey header')
+					span(class='blue bottom border') Past Projects
+			div(class='ui seven wide column')
+				div(class='ui divided items')
+					each project in projects
+						div(class='ui item')
+							div(class='image')
+								img(src='#{employer.image}')
+							div(class='ui top aligned content')
+								h3(class='ui header') #{employer.title}
+								p #{employer.company}
+								p #{employer.dates}
 
 	section(id='past-projects')
 		div(class='ui internally celled padded grid')
-			div(class='ui seven wide column pattern_banner_img')
+			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted grey header') 
 					span(class='blue bottom border') Past Projects
-			div(class='ui nine wide column')
+			div(class='ui seven wide column')
 					div(class='ui divided items')
 						each project in projects
 							div(class='ui item')
