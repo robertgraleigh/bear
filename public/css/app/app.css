@@ -611,3 +611,8 @@ a.ui.footer.links {
 	font-weight: bold;
 	color: #2185D0;
 }
+
+.ui.segment {
+	border: solid 2px #D4D4D5;
+	border-radius: 5px;
+}

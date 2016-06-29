@@ -6,7 +6,7 @@ block content
 
 	header(id='home-header')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui nine wide column')
+			div(class='ui nine wide column pattern_banner_img')
 				h1(class='ui uppercase center aligned inverted white header')
 					span(class='blue bottom border') #{header.mainHeader}
 				h3(class='ui center aligned header', style="font-size: 2rem; color: #f7f7f7 !important;") #{header.subHeader}
@@ -22,7 +22,7 @@ block content
 	section(id='products-section')
 		div(class='ui internally celled padded centered grid')
 			div(class='ui sixteen wide center aligned column')
-				h2(class='ui header') I build maintainable products for people without much time on their hands. I provide regular support so you can build on your own goals. Focus on the key work.
+				h2(class='ui header') I help small and mid size business owners construct and maintain their websites. My goal is to increase your business overall efficiency. Give them back time. Focus on the critical parts of your business.  I provide regular support so you can build on your own goals. Focus on the key work. Support includes graphic design. Email. Payments. Invoices. 
 			div(class='ui row')
 				div(class='ui three wide center aligned column')
 					a(href='/blog')
@@ -48,7 +48,7 @@ block content
 	// GET the benefits from index controller
 	section(id='benefits')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui seven wide column')
+			div(class='ui seven wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') Benefits
 			div(class='ui nine wide column')
@@ -68,7 +68,7 @@ block content
 	// GET the products from index controller 
 	section(id='products')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui seven wide column')
+			div(class='ui seven wide column pattern_banner_img')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Products
 			div(class='ui nine wide column')
@@ -88,8 +88,8 @@ block content
 	// GET the services from index controller
 	section(id='services')
 		div(class='ui internally celled padded grid')
-			div(id='swirl_banner_img', class='ui seven wide column')
-				h2(class='ui left aligned uppercase inverted white header')
+			div(class='ui seven wide column pattern_banner_img')
+				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Services
 			div(class='ui nine wide column')
 				each service in services

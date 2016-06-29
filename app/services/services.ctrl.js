@@ -23,7 +23,7 @@
 					button: 'Explore Web Development'
 				},
 				{
-					header: 'Website Design',
+					header: 'Website Redesign',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					image: 'http://loremflickr.com/g/500/300/portland',
 					link: 'products/e-commerce',
