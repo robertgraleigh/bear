@@ -29,7 +29,7 @@ footer {
 /* default h1 header settings */
 h1 {
 	/* font-size: 3rem !important; */
-	font-family: 'League Spartan';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 5rem !important;
 	margin-top: 0px;
@@ -37,7 +37,7 @@ h1 {
 
 /* default h2 header settings */
 h2 {
-	font-family: 'Lato';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 3.25rem !important;
 	margin-top: 0px;
@@ -45,7 +45,7 @@ h2 {
 
 /* default h3 header settings */
 h3 {
-	font-family: 'Lato';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 1.75rem !important;
 	margin-top: 0px;
@@ -53,7 +53,7 @@ h3 {
 
 /* default h4 header settings */
 h4 {
-	font-family: 'Lato';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 1rem !important;
 	margin-top: 0px;
@@ -61,7 +61,7 @@ h4 {
 
 /* default h5 header settings */
 h5 {
-	font-family: 'Lato';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal !important;
 	font-size: 1rem;
 	margin-top: 0px;
@@ -69,7 +69,7 @@ h5 {
 
 /* default h6 header setting */
 h6 {
-	font-family: 'Lato';
+	font-family: 'League Spartan', 'League Gothic', sans-serif;
 	font-weight: normal;
 	font-size: 1rem !important;
 	margin-top: 0px;
