@@ -5,7 +5,7 @@
       title: 'Bear - This is an app about the future',
       header: {
         mainHeader: 'Robert G. Raleigh',
-        subHeader: 'This is the subtitle for the home page.'
+        subHeader: 'Full-stack MEAN Web Developer'
     	},
       sections: [
         {
@@ -25,51 +25,66 @@
         {
           header: 'Benefit one',
           description: 'This is th benefit section of thw page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					button: 'Benefit one'
         },
         {
           header: 'Benefit two',
           description: 'This is th benefit section of thw page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					button: 'Benefit two'
         },
         {
           header: 'Benefit three',
           description: 'This is th benefit section of thw page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					button: 'Benefit three'
         }
       ],
       products: [
         {
           header: 'Product one',
           description: 'This is the first product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/product-one',
+					button: 'Product One'
         },
         {
           header: 'Product two',
           description: 'This is the second product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/product-two',
+					button: 'Product Two'
         },
         {
           header: 'Product three',
           description: 'This is the third product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/product-three',
+					button: 'Product Three'
         }
       ],
       services: [
         {
           header: 'Services one',
           description: 'This is the first product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/services-one',
+					button: 'Services One'
         },
         {
           header: 'Services two',
           description: 'This is the second product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/services-two',
+					button: 'Services Two'
         },
         {
           header: 'Services three',
           description: 'This is the third product of the home page.',
-					image: '/img/placeholder.png'
+					image: '/img/placeholder.png',
+					href: '/services-three',
+					button: 'Services Three'
         }
       ]
     });

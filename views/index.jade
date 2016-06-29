@@ -7,9 +7,9 @@ block content
 	header(id='home-header')
 		div(class='ui internally celled padded grid')
 			div(class='ui nine wide column pattern_banner_img')
-				h1(class='ui uppercase center aligned inverted white header')
+				h2(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') #{header.mainHeader}
-				h3(class='ui center aligned header', style="font-size: 2rem; color: #f7f7f7 !important;") #{header.subHeader}
+				h3(class='ui right aligned grey header') #{header.subHeader}
 			div(class='ui seven wide column')
 				h3(class='ui header') This is a sample of the paragraph section for the home page.
 				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the 
@@ -57,13 +57,13 @@ block content
 						div(class='ui item')
 							div(class='image')
 								img(src='#{benefit.image}')
-							div(class='middle aligned content')
-								a(class='header') #{benefit.header}
+							div(class='ui middle aligned content')
+								h3(class='ui header') #{benefit.header}
 								div(class='meta')
 									span #{benefit.description}
 								div(class='description')
-									div(class='extra')
-										span Additional Details
+									p Additional Details
+									a(href='#{benefit.href}', class='ui basic blue button') #{benefit.button}
 
 	// GET the products from index controller 
 	section(id='products')
@@ -71,6 +71,7 @@ block content
 			div(class='ui seven wide column pattern_banner_img')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Products
+				h3(class='ui right aligned grey header') These are the digital web products, including websites, cms systems.
 			div(class='ui nine wide column')
 				div(class='ui divided items')
 					each product in products
@@ -78,12 +79,12 @@ block content
 							div(class='image')
 								img(src='#{product.image}')
 							div(class='middle aligned content')
-								a(class='header') #{product.header}
+								h3(class='ui header') #{product.header}
 								div(class='meta')
 									span #{product.description}
 								div(class='description')
-									div(class='extra')
-										span Additional Details
+									p Additional Details
+									a(href='#{product.href}', class='ui basic blue button') #{product.button}
 
 	// GET the services from index controller
 	section(id='services')
@@ -91,15 +92,17 @@ block content
 			div(class='ui seven wide column pattern_banner_img')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Services
+				h3(class='ui right aligned grey header') A full suite of digital web and creative services for small and mid-size businesses.
 			div(class='ui nine wide column')
-				each service in services
-					div(class='ui raised segment')
-						div(class='image')
-							img(src='#{service.image}')
-						div(class='middle aligned content')
-							a(class='header') #{service.header}
-							div(class='meta')
-								span #{service.description}
-							div(class='description')
-								div(class='extra')
-									span Additional Details
+				div(class='ui divided items')
+					each service in services
+						div(class='ui item')
+							div(class='image')
+								img(src='#{service.image}')
+							div(class='middle aligned content')
+								h3(class='ui header') #{service.header}
+								div(class='meta')
+									span #{service.description}
+								div(class='description')
+									p Additional Details
+									a(href='#{service.href}', class='ui basic blue button') #{service.button}

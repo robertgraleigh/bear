@@ -1,3 +1,4 @@
+// services.ctrl.js
 (function () {
 	/* GET SERVICES view */
 	module.exports.services = function(req, res) {

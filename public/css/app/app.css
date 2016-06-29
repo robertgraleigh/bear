@@ -612,7 +612,18 @@ a.ui.footer.links {
 	color: #2185D0;
 }
 
+/* overrides default ui segment border */
 .ui.segment {
 	border: solid 2px #D4D4D5;
 	border-radius: 5px;
+}
+
+/* overrides default ui divided items border */
+.ui.divided.items>.item {
+	border-bottom: solid 2px #D4D4D5;
+}
+
+.ui.items>.item>.content>.header {
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;
 }

@@ -1,9 +1,10 @@
+// start.route.js
 (function () {
-    var express = require('express');
-    var router = express.Router();
-    var startCtrl = require('../start/start.ctrl.js');
+	var express = require('express');
+	var router = express.Router();
+	var startCtrl = require('../start/start.ctrl.js');
 
-    router.get('/start', startCtrl.start);
+	router.get('/', startCtrl.start);
 
-    module.exports = router;
+	module.exports = router;
 }());

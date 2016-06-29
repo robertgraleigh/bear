@@ -1,3 +1,4 @@
+// start.ctrl.js
 (function () {
   /* GET START view. */
   module.exports.start = function(req, res) {

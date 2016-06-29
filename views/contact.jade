@@ -1,3 +1,4 @@
+// views -> contact.jade
 extends layout
 
 block content
@@ -23,6 +24,9 @@ block content
 
 	section(id='location')
 		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted grey header')
+					span(class='blue bottom border') Location
 			div(class='ui seven wide column')
 				div(class='ui segment')
 					h3(class='ui header') The Raleigh &amp; Co. offices are housed at Deskhub, a coworking space located in the Pearl District, in Portland, OR.
@@ -39,9 +43,7 @@ block content
 						div(class='ui item')
 							h4(class='ui uppercase header') Get directions
 							img(src='http://placehold.it/220x160', class='ui responsive image')
-			div(id='location-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase inverted grey header')
-					span(class='blue bottom border') Location
+
 	//
 		section(id='sticky-test', class='ui bound top sticky')
 		div(class='ui inverted blue straight segment')
@@ -56,8 +58,8 @@ block content
 
 	section(id='social-media')
 		div(class='ui internally celled padded grid')
-			div(id='social-media-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase grey uppercase right aligned header', style='color: #eeeeee !important; font-size: 5rem;')
+			div(class='ui nine wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted grey header')
 					span(class='blue bottom border') Social Media
 			div(class='ui seven wide column')
 				div(class='ui segment')
@@ -77,6 +79,9 @@ block content
 
 	section(id='contact-form')
 		div(class='ui internally celled padded grid')
+			div(class='ui nine wide column pattern_banner_img')
+				h2(class='ui uppercase right aligned inverted grey header')
+					span(class='blue bottom border') Contact Form
 			div(class='ui seven wide column')
 				div(class='ui segment')
 					h3(class='ui header') Contact Raleigh &amp; Co.
@@ -96,7 +101,3 @@ block content
 						div(class='ui field')
 							input(type='submit', class='ui basic blue button')
 							input(type='reset' class='ui basic grey button')
-
-			div(id='contact-form-banner-img', class='ui nine wide column')
-				h2(class='ui uppercase grey uppercase header', style='color: #eeeeee !important; font-size: 5rem;')
-					span(class='blue bottom border') Contact Form
