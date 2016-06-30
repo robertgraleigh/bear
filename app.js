@@ -17,7 +17,9 @@
   var company = require('./app/company/company.route.js');
   var products = require('./app/products/products.route.js');
   var services = require('./app/services/services.route.js');
+	var web = require('./app/web/web.route.js');
   var portfolio = require('./app/portfolio/portfolio.route.js');
+	var resources = require('./app/resources/resources.route.js');
   var blog = require('./app/blog/blog.route.js');
   var contact = require('./app/contact/contact.route.js');
   var start = require('./app/start/start.route.js');
@@ -63,7 +65,9 @@
 		} else next();
 	});
   app.use('/services', services);
+	app.use('/web', web);
   app.use('/portfolio', portfolio);
+	app.use('/resources', resources);
   app.use('/blog', blog);
   app.use('/contact', contact);
   app.use('/start', start);

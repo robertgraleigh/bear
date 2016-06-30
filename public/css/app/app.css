@@ -259,6 +259,14 @@ a:hover {
 	background-size: cover;
 }
 
+/* displays image in web services header */
+#web-services-header-img {
+	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 #roberts-story-banner-img {
 	background-image: url('/img/placeimg_1000_1000_grayscale_tech.jpg');
 	background-position: top;
