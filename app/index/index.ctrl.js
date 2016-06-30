@@ -66,26 +66,40 @@
       ],
       services: [
         {
-          header: 'Services one',
+          header: 'Website Services',
           description: 'This is the first product of the home page.',
 					image: '/img/placeholder.png',
-					href: '/services-one',
-					button: 'Services One'
+					href: '/web-services',
+					button: 'Explore Web Services'
         },
         {
-          header: 'Services two',
-          description: 'This is the second product of the home page.',
+          header: 'E-Commerce Services',
+          description: 'online e-commerce',
 					image: '/img/placeholder.png',
-					href: '/services-two',
-					button: 'Services Two'
+					href: '/e-commerce-services',
+					button: 'Explore E-Commerce Services'
         },
         {
-          header: 'Services three',
-          description: 'This is the third product of the home page.',
+          header: 'Copywriting Services',
+          description: 'Comprehensive copywriting for newsletters',
 					image: '/img/placeholder.png',
-					href: '/services-three',
-					button: 'Services Three'
-        }
+					href: '/copywriting-services',
+					button: 'Explore Copywriting Services'
+        },
+				{
+					header: 'Development Services',
+					description: '',
+					image: '/img/placeholder.png',
+					href: '/development-services',
+					button: 'Explore Development Services'
+				},
+				{
+					header: 'Consulting Services', 
+					description: 'General business consulting services',
+					image: '/img/placeholder.png',
+					href: '/consulting-services',
+					button: 'Explore Consulting Services'
+				}
       ]
     });
   };
