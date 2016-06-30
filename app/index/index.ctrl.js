@@ -43,22 +43,22 @@
       ],
       products: [
         {
-          header: 'Product one',
+          header: 'Websites',
           description: 'This is the first product of the home page.',
 					image: '/img/placeholder.png',
 					href: '/product-one',
 					button: 'Product One'
         },
         {
-          header: 'Product two',
+          header: 'Online Stores',
           description: 'This is the second product of the home page.',
 					image: '/img/placeholder.png',
 					href: '/product-two',
 					button: 'Product Two'
         },
         {
-          header: 'Product three',
-          description: 'This is the third product of the home page.',
+          header: 'Platforms',
+          description: 'Platforms are ',
 					image: '/img/placeholder.png',
 					href: '/product-three',
 					button: 'Product Three'
