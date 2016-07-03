@@ -2,7 +2,7 @@
   /* GET INDEX view. */
   module.exports.index = function(req, res) {
     res.render('index', {
-      title: 'Bear - This is an app about the future',
+      title: 'Robert G. Raleigh - Multi-faceted web developer',
       header: {
         mainHeader: 'Robert G. Raleigh',
         subHeader: 'Full-stack MEAN Web Developer'
@@ -21,6 +21,10 @@
           subHeader: 'This is the section subheader'
         }
       ],
+			benefit: {
+				header: 'Benefits',
+				subheader: 'Why you should work with Robert Raleigh'
+			},
       benefits: [
         {
           header: 'Benefit one',
@@ -67,14 +71,16 @@
       services: [
         {
           header: 'Website Services',
-          description: 'This is the first product of the home page.',
+          description: 'Drupal, Wordpress, Squarespace, Static, Dynamic',
+					details: 'Launch or update a website on your preferred platform or host.',
 					image: '/img/placeholder.png',
 					href: '/web-services',
 					button: 'Explore Web Services'
         },
         {
           header: 'E-Commerce Services',
-          description: 'online e-commerce',
+          description: 'Magento Shopify, Stripe, Square',
+					details: 'Launch an online store, sell products, or accept payments.',
 					image: '/img/placeholder.png',
 					href: '/e-commerce-services',
 					button: 'Explore E-Commerce Services'
@@ -82,6 +88,7 @@
         {
           header: 'Copywriting Services',
           description: 'Comprehensive copywriting for newsletters',
+					details: 'Provide copy and content for websites, newsletters, and social media outlets.',
 					image: '/img/placeholder.png',
 					href: '/copywriting-services',
 					button: 'Explore Copywriting Services'
@@ -89,6 +96,7 @@
 				{
 					header: 'Development Services',
 					description: '',
+					details: 'Experience setting up online fundraising platforms, grantwriting.',
 					image: '/img/placeholder.png',
 					href: '/development-services',
 					button: 'Explore Development Services'
@@ -96,6 +104,7 @@
 				{
 					header: 'Consulting Services', 
 					description: 'General business consulting services',
+					details: 'I can help with business model, product market fit.',
 					image: '/img/placeholder.png',
 					href: '/consulting-services',
 					button: 'Explore Consulting Services'

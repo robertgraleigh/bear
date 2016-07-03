@@ -1,57 +1,41 @@
-// index.jade 
-
+// index.jade
 extends layout
 
 block content
 
 	header(id='home-header')
 		div(class='ui internally celled padded grid')
+			div(class='ui sixteen wide column')
+				h1(class='ui large header') I'll help you build something extraordinary
+			div(class='ui horizontal list')
+				div(class='ui item')
+					a(class='ui basic blue button') Action one
+				div(class='ui item')
+					a(class='ui basic grey button') Action two
+
+	section(id='home-about-robert')
+		div(class='ui internally celled padded grid')
 			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') #{header.mainHeader}
 				h3(class='ui right aligned grey header') #{header.subHeader}
 			div(class='ui seven wide column')
-				h3(class='ui header') This is a sample of the paragraph section for the home page.
-				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the 
+				h3(class='ui header') Helping independent professionals manage online expectations.
+				p I'm like a swiss army knife on a camping trip, or an epoxy holding your team together.
+				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the
 				| contracts I need in order to be successful.
-				p This is a paragraph with all of the necessary content I need in order to launch this new startup idea of mine. To build up the 
-				| contracts I need in order to be successful.
-				a(class='ui basic blue button') View Products
-				a(class='ui basic grey button') View Services
-
-	section(id='products-section')
-		div(class='ui internally celled padded centered grid')
-			div(class='ui sixteen wide center aligned column')
-				h2(class='ui header') I help small and mid size business owners construct and maintain their websites. My goal is to increase your business overall efficiency. Give them back time. Focus on the critical parts of your business.  I provide regular support so you can build on your own goals. Focus on the key work. Support includes graphic design. Email. Payments. Invoices. 
-			div(class='ui row')
-				div(class='ui three wide center aligned column')
-					a(href='/blog')
-						img(src='/img/placeholder.png', class='ui responsive centered image')
-						h3(class='ui uppercase header') Websites
-				div(class='ui three wide center aligned column')
-					a(href='/blog')
-						img(src='/img/placeholder.png', class='ui responsive centered image')
-						h3(class='ui uppercase header') Shops
-				div(class='ui three wide center aligned column')
-					a(href='/blog')
-						img(src='/img/placeholder.png', class='ui responsive centered image')
-						h3(class='ui uppercase header') Hybrid Apps
-				div(class='ui three wide center aligned column')
-					a(href='/blog')
-						img(src='/img/placeholder.png', class='ui responsive centered image')
-						h3(class='ui uppercase header') Articles
-				div(class='ui three wide center aligned column')
-					a(href='/blog')
-						img(src='/img/placeholder.png', class='ui responsive centered image')
-						h3(class='ui uppercase header') Articles
+				div(class='ui row')
+					a(class='ui basic blue button') View Products
+					a(class='ui basic grey button') View Services
 
 	// GET the benefits from index controller
 	section(id='benefits')
 		div(class='ui internally celled padded grid')
-			div(class='ui seven wide column pattern_banner_img')
+			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted white header')
-					span(class='blue bottom border') Benefits
-			div(class='ui nine wide column')
+					span(class='blue bottom border') #{benefit.header}
+				h3(class='ui right aligned inverted grey header') #{benefit.subheader}
+			div(class='ui seven wide column')
 				div(class='ui divided items')
 					each benefit in benefits
 						div(class='ui item')
@@ -65,7 +49,7 @@ block content
 									p Additional Details
 									a(href='#{benefit.href}', class='ui basic blue button') #{benefit.button}
 
-	// GET the products from index controller 
+	// GET the products from index controller
 	section(id='products')
 		div(class='ui internally celled padded grid')
 			div(class='ui seven wide column pattern_banner_img')
@@ -104,5 +88,5 @@ block content
 								div(class='meta')
 									span #{service.description}
 								div(class='description')
-									p Additional Details
+									p #{service.details}
 									a(href='#{service.href}', class='ui basic blue button') #{service.button}

@@ -96,7 +96,7 @@ a:hover {
 
 /* controls the logo styles */
 .logo {
-	font-family: 'Fjalla One';
+	font-family: 'Fjalla One' !important;
 	font-size: 2.5rem;
 	font-weight: normal;
 	color: #000000;
@@ -108,7 +108,7 @@ a:hover {
 
 /* controls the brand font */
 .brand {
-	font-family: 'Fjalla One';
+	font-family: 'Fjalla One' !important;
 	font-weight: normal;
 	font-size: 1.5rem;
 }
@@ -609,7 +609,8 @@ a.ui.footer.links {
 	color: #f9f9f9;
 }
 
-.ui.uppercase.white.header {
+.ui.uppercase.right.aligned.inverted.white.header {
+	font-family: 'Fjalla One', sans-serif !important;
 	color: #ffffff !important;
 }
 
