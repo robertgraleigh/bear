@@ -9,17 +9,17 @@ nav.ui.borderless.attached.menu {
 }
 
 a.ui.link {
-	font-family: 'Lato', sans-serif;
+	font-family: 'OSP-DIN', sans-serif;
 	font-weight: bold;
 	font-size: 1rem;
-	color: #404040 !important;	
+	color: #404040 !important;
 }
 
 div.ui.simple.uppercase.dropdown.item {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 1rem;
-	color: #404040 !important;	
+	color: #404040 !important;
 }
 
 a.uppercase.brand.link {

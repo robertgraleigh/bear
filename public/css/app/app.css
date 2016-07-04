@@ -29,15 +29,16 @@ footer {
 /* default h1 header settings */
 h1 {
 	/* font-size: 3rem !important; */
-	font-family: 'Fjalla One' !important;
+	font-family: 'OSP-DIN' !important;
 	font-weight: normal;
+	text-transform: uppercase;
 	font-size: 5rem !important;
 	margin-top: 0px;
 }
 
 /* default h2 header settings */
 h2 {
-	font-family: 'Fjalla One', sans-serif !important;
+	font-family: 'Oswald', sans-serif !important;
 	font-weight: normal;
 	font-size: 3.25rem !important;
 	margin-top: 0px;
@@ -233,7 +234,7 @@ a:hover {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-}	
+}
 
 /* displays image in blog header */
 #blog-header-img {
@@ -241,7 +242,7 @@ a:hover {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-}	
+}
 
 /* displays image in contact header */
 #contact-header-img {
