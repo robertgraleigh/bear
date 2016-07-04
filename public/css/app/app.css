@@ -21,6 +21,10 @@ section {
 	border-top: solid 2px #D4D4D5 !important;
 }
 
+.fa{
+	color: #ff0000;
+}
+
 /* default footer styles */
 footer {
   margin: 0px !important;

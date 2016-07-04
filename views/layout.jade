@@ -3,10 +3,9 @@ html
 	head
 		title= title
 		link(rel='stylesheet', href='/css/semantic-ui/semantic-ui.min.css', type='text/css')
-		link(rel='stylesheet', href='/css/fontawesome/stylesheet.css', type='text/css')
+		link(rel='stylesheet', href='/css/fontawesome/fontawesome.css', type='text/css')
 		link(rel='stylesheet', href='/css/app/app.css', type='text/css')
 		link(rel='stylesheet', href='/css/app/nav.css', type='text/css')
-
 
 	body
 
@@ -28,6 +27,7 @@ html
 
 		nav(class='ui borderless attached menu')
 			div(class='ui item')
+				i(class='fa fa-home fa-fw')
 				a(class='uppercase brand link', href='/') Home
 
 			div(class="ui simple uppercase dropdown item") About
@@ -250,15 +250,15 @@ html
 							div(class='ui vertical list')
 								div(class='ui item')
 									a(class='ui footer link', href='/')
-										i.fa.fa-twitter.fa-fw
+										i(class='fa fa-twitter fa-fw')
 										span @RobertGRaleigh
 								div(class='ui item')
 									a(class='ui footer link', href='/')
-										i.fa.fa-linkedin.fa-fw
+										i(class='fa fa-linkedin fa-fw')
 										span @RobertGRaleigh
 								div(class='ui item')
 									a(class='ui footer link', href='/')
-										i.fa.fa-github.fa-fw
+										i(class='fa fa-github fa-fw')
 										span @RobertGRaleigh
 
 		section(id='copyright-notice', class='ui straight grey segment')
