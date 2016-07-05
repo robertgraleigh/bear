@@ -1,3 +1,4 @@
+// app -> locations -> locations.ctrl.js
 (function () {
 
   /* GET LOCATIONS view */

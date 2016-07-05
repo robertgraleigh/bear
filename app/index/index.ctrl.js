@@ -1,3 +1,4 @@
+// app -> index -> index.ctrl.js
 (function () {
   /* GET INDEX view. */
   module.exports.index = function(req, res) {
@@ -102,7 +103,7 @@
 					button: 'Explore Development Services'
 				},
 				{
-					header: 'Consulting Services', 
+					header: 'Consulting Services',
 					description: 'General business consulting services',
 					details: 'I can help with business model, product market fit.',
 					image: '/img/placeholder.png',

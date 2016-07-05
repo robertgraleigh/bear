@@ -64,7 +64,7 @@
   app.use(cookieParser());
   app.use(express.static(path.join(__dirname, 'public')));
 
-  // Defines the application routes
+  // Defines the default application path
   app.use('/', index);
   app.use('/about', about);
   app.use('/company', company);
@@ -92,7 +92,7 @@
   // Defines the application API routes
   app.use('/api/', index);
 
-  // catch 404 and forward to error handler
+  // catch 404 error and forward to error handler
   app.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
