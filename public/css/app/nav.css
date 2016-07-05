@@ -16,7 +16,7 @@ a.ui.link {
 }
 
 div.ui.simple.uppercase.dropdown.item {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-weight: bold;
 	font-size: 1rem;
 	color: #404040 !important;
@@ -30,8 +30,8 @@ a.uppercase.brand.link {
 }
 
 a.basic.grey.button {
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif !important;
+	font-weight: normal;
 	font-size: 1rem;
 	color: #404040 !important;
 	border: solid 1px #404040;
@@ -39,10 +39,30 @@ a.basic.grey.button {
 }
 
 a.basic.blue.button {
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif !important;
+	font-weight: normal;
 	font-size: 1rem;
 	color: #2185D0;
+	border: solid 1px #2185D0;
+	border-radius: 5px;
+}
+
+a.grey.button {
+	font-family: 'Fjalla One', sans-serif !important;
+	font-weight: normal;
+	font-size: 1rem;
+	background-color: #404040 !important;
+	color: #f7f7f7 !important;
+	border: solid 1px #404040;
+	border-radius: 5px;
+}
+
+a.blue.button {
+	font-family: 'Fjalla One', sans-serif !important;
+	font-weight: normal;
+	font-size: 1rem;
+	background-color: #2185D0;
+	color: #ffffff !important;
 	border: solid 1px #2185D0;
 	border-radius: 5px;
 }

@@ -1,6 +1,10 @@
 // app.js
 (function () {
-  var express = require('express');
+	/* ==========================================================================
+		Requires: Instantiates the necessary modules for the Express app.
+	========================================================================== */
+
+	var express = require('express');
   var path = require('path');
 	var http = require('http');
   var favicon = require('serve-favicon');
@@ -11,7 +15,10 @@
 	var router = express.Router();
 	var app = express();
 
-  // Application routes
+	/* ==========================================================================
+		Routes: Defines the explicit routes for the front-end client app.
+	========================================================================== */
+
   var index = require('./app/index/index.route.js');
   var about = require('./app/about/about.route.js');
   var company = require('./app/company/company.route.js');
@@ -32,6 +39,10 @@
   //var routes = require('./routes/index');
   //var users = require('./routes/users');
 
+	/* ==========================================================================
+		Locals: Defines locals for the front-end app template. Move to config file.
+	========================================================================== */
+
 	app.locals.name = 'Bear';
 	app.locals.tagline = 'An application with animals on the cover'
 	app.locals.email = 'info@rgrventures.com';
@@ -45,8 +56,8 @@
   app.set('views', path.join(__dirname, 'views'));
   app.set('view engine', 'jade');
 
-  // uncomment after placing your favicon in /public
-  //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+  // comment or uncomment if favicon has been placed in /public
+  app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
   app.use(logger('dev'));
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: false }));
