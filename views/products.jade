@@ -17,14 +17,14 @@ block content
 					a(href='/contact', class='ui basic grey button') Contact Robert
 					a(href='/get-started', class='ui basic blue button') Get Started
 
-	section(id='product-types')
+	section(id='products')
 		div(class='ui internally divided padded grid')
-			div(class='ui seven wide column pattern_banner_img')
-				h2(class='ui uppercase right aligned inverted white header') 
-					span(class='blue bottom border') Products			 	
-			div(class='ui nine wide column')
-				each product in products
+			each product in products
+				div(class='ui seven wide column pattern_banner_img')
+					h2(class='ui uppercase right aligned inverted white header')
+						span(class='blue bottom border') #{product.header}
+				div(class='ui nine wide column')
 					div(class='ui segment')
-						h3(class='ui header') #{product.header}
+						h3(class='ui header') #{product.subheader}
 							p	#{product.copy}
 							a(href='#{product.link}' class='ui basic blue button') #{product.button}

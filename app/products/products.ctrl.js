@@ -9,43 +9,57 @@
 			products: [
 				{
 					header: 'Websites',
+					subheader: 'This is the websites section subheader',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					link: 'products/websites',
-					button: 'View website packages'
+					button: 'Explore Websites'
 				},
 				{
-					header: 'Online Store',
+					header: 'Online Shops',
+					subheader: 'This is the online store section subheader',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					link: 'products/e-commerce',
-					button: 'View e-commerce packages'
+					button: 'Explore Online Stores'
 				},
 				{
 					header: 'CMS Systems',
+					subheader: 'This is the cms systems section subheader',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
 					link: 'products/cms-systems',
-					button: 'View cms-systems'
+					button: 'Explore CMS Systems'
 				},
 				{
-					header: 'Email',
-					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
-					link: 'products/cms-systems',
-					button: 'View cms-systems'
+					header: 'Apps',
+					subheader: 'This is the subheader for the apps section.',
+					copy: 'We offer three levels of pricing for apps. simple, complex, and custom application development and integration.',
+					link: '/apps',
+					button: 'Explore Apps'
 				},
 				{
-					header: 'Social Media',
+					header: 'Content',
+					subheader: 'This is the subheader for the copy section.',
 					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
-					link: 'products/cms-systems',
-					button: 'View cms-systems'
-				},
-				{
-					header: 'Copywriting',
-					copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
-					link: 'products/cms-systems',
-					button: 'View cms-systems'
+					link: '/content',
+					button: 'Explore Content'
 				}
 			]
 		});
 	};
+
+	/*
+	{
+		header: 'Email',
+		copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+		link: 'products/cms-systems',
+		button: 'View cms-systems'
+	},
+	{
+		header: 'Social Media',
+		copy: 'We offer websites for simple, dynamic, and custom pricing tiers. We\'ll give you whatever you want or need. This is another small paragraph with the stuff needed for this section.',
+		link: 'products/cms-systems',
+		button: 'View cms-systems'
+	},
+	*/
 
 	/* GET 'websites' view */
 	module.exports.website = function(req, res) {
