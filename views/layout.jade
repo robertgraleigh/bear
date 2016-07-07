@@ -123,14 +123,14 @@ html
 						h2(class='ui uppercase center aligned header')
 							span(class='blue bottom border') Newsletter
 
-						form(id='newsletter', class='ui form')
+						form(id='newsletter', action='/newsletter', method='post', class='ui form')
 							div(class='ui fields')
 								div(class='ui four wide field')
-									input(type='text', placeholder='First Name')
+									input(name='firstName', type='text', placeholder='First Name')
 								div(class='ui four wide field')
-									input(type='text', placeholder='Last Name')
+									input(name='lastName', type='text', placeholder='Last Name')
 								div(class='ui four wide field')
-									input(type='text', placeholder='Email address')
+									input(name='emailAddress', type='text', placeholder='Email address')
 								div(class='ui four wide field')
 									button(id='', class='ui blue button') Subscribe
 

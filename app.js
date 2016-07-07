@@ -30,7 +30,7 @@
   var blog = require('./app/blog/blog.route.js');
   var contact = require('./app/contact/contact.route.js');
   var start = require('./app/start/start.route.js');
-	var form = require('./app/form/form.route.js');
+	// var newsletter = require('./app/newsletter/newsletter.route.js');
 
   //var locations = require('./app/locations/locations.route.js');
 
@@ -83,7 +83,7 @@
   app.use('/blog', blog);
   app.use('/contact', contact);
   app.use('/start', start);
-	app.use('/form', form);
+	// app.use('/newsletter', newsletter);
   //app.use('/locations', locations);
   //app.use('/users', users);
 
