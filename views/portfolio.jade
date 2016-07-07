@@ -6,45 +6,17 @@ block content
 		div(class='ui internally celled padded grid')
 			div(id='portfolio-header-img', class='ui nine wide grey column')
 				h1(class='ui uppercase right aligned inverted white header')
-					span(class='blue bottom border') #{banner.heading}
-				p #{banner.copy}
+					span(class='blue bottom border') #{pageHeader.title}
+				h3(class='ui header') #{pageHeader.subtitle}
 			div(class='ui seven wide column')
-				h3(class='ui uppercase header') This is the header for the page
-				p #{box.copyOne}
-				p #{box.copyTwo}
-				a(class='ui basic blue button') #{box.buttonOne}
-				a(class='ui basic grey button') #{box.buttonTwo}
+				h3(class='ui uppercase header') #{pageInfo.header}
+				p(class='ui text') #{pageInfo.copyOne}
+				p(class='ui text') #{pageInfo.copyTwo}
 
-	section(id='ideal-clients')
+	section(id='past-projects')
 		div(class='ui internally celled padded grid')
 			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted white header')
-					span(class="blue bottom border") Ideal Clients
-			div(class='ui seven wide left aligned column')
-				div(class='ui segment')
-					h3(class='ui header') The ideal clients are nonprofit, creatives, small-to-mid size businesses.
-					p This is a eight wide column detailing the different types of ideal clients.
-					
-	section(id='past-projects')
-		div(class='ui internally celled padded grid')
-			div(class='ui nine wide column pattern_banner_img')
-				h2(class='ui uppercase right aligned inverted grey header')
-					span(class='blue bottom border') Past Projects
-			div(class='ui seven wide column')
-				div(class='ui divided items')
-					each project in projects
-						div(class='ui item')
-							div(class='image')
-								img(src='#{employer.image}')
-							div(class='ui top aligned content')
-								h3(class='ui header') #{employer.title}
-								p #{employer.company}
-								p #{employer.dates}
-
-	section(id='past-projects')
-		div(class='ui internally celled padded grid')
-			div(class='ui nine wide column pattern_banner_img')
-				h2(class='ui uppercase right aligned inverted grey header') 
 					span(class='blue bottom border') Past Projects
 			div(class='ui seven wide column')
 					div(class='ui divided items')
@@ -54,4 +26,5 @@ block content
 									img(src='/img/placeholder.png', class='ui responsive image')
 									div(class='middle aligned content')
 										h3(class='ui uppercase heading') #{project.company}
-										p A simple website is used to promote a good or service. Works as information or signup , or simple marketing
+										p(class='ui text') #{project.desc}
+										a(href='#{project.link}', class ='ui #{project.disabled} basic grey button' , target="_blank") #{project.text}
