@@ -54,13 +54,13 @@
 					disabled: ''
 				},
 				{
-					title: 'Other Joseph Krune Website',
+					title: 'crazy Colorful Fitness',
 					imageOne: 'http://www.placehold.it/240x200',
 					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Other Joseph Krune Website',
-					desc: 'I provided paid website copywriting services for this other joint joseph krune agency website project.',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit the other joseph website',
+					company: 'crazy Colorful Fitness',
+					desc: 'I provided paid website copywriting services for this fitness blog website project.',
+					link: 'http://www.crazycolorfulfitness.com',
+					text: 'Visit the crazy Colorful Fitness website',
 					disabled: ''
 				},
 				{
@@ -68,7 +68,7 @@
 					imageOne: 'http://www.placehold.it/240x200',
 					imageTwo: 'http://www.placehold.it/240x200',
 					company: 'Log Camp',
-					desc: 'I provided paid fullstack web development, design, branding, copywriting, and instructional services for this project.',
+					desc: 'I provided paid fullstack web development, design, branding, copywriting, and technology instructional services for this project.',
 					link: 'http://www.hmccoregon.com',
 					text: 'Visit the Log Camp website',
 					disabled: 'disabled'
@@ -78,9 +78,19 @@
 					imageOne: 'http://www.placehold.it/240x200',
 					imageTwo: 'http://www.placehold.it/240x200',
 					company: 'Natives Who Code',
-					desc: 'I performed copywriting services for the Newsletter',
+					desc: 'I provided unpaid website development, website design, branding, and copywriting services for this not-for-profit organization.',
 					link: 'http://www.hmccoregon.com',
 					text: 'Visit the Natives Who Code website',
+					disabled: ''
+				},
+				{
+					title: 'Survivance',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Survivance',
+					desc: 'I provided paid website development, website design, website hosting, and copywriting services for this Indigenous game website.',
+					link: 'http://www.survivance.org',
+					text: 'Visit the Survivance website',
 					disabled: ''
 				},
 				{
@@ -130,7 +140,7 @@
 					company: 'Corvallis Monthly Magazine',
 					desc: 'I provided paid copywriting and content services for this monthly magazine based in Corvallis, OR.',
 					link: 'https://www.linkedin.com/company/in-corvallis-magazine',
-					text: 'Visit the Corvallis Monthly website',
+					text: 'Visit the IN Corvallis Monthly website',
 					disabled: ''
 				},
 				{
@@ -140,7 +150,7 @@
 					company: 'Corvallis Artisans Market',
 					desc: 'I provided paid web development, web design, branding, copywriting and direct marketing services for this year-round artists boutique.',
 					link: 'http://www.gazettetimes.com/corvallis-artisans-market-boutique/image_d2dcc982-d549-11de-b92e-001cc4c002e0.html',
-					text: 'Visit the Artisans Market website',
+					text: 'Visit the Corvallis Artisans Market website',
 					disabled: ''
 				},
 				{
@@ -170,7 +180,7 @@
 					company: 'Beckon Call Window Cleaners',
 					desc: 'I provided paid branding design services for the window cleaning firm located in Corvallis, OR.',
 					link: 'http://www.beckoncallservices.com/',
-					text: 'Visit Beckon Call website',
+					text: 'Visit the Beckon Call website',
 					disabled: ''
 				},
 				{
@@ -180,7 +190,7 @@
 					company: 'Willamette Angel Conference',
 					desc: 'I provided paid copywriting, graphic design, and direct marketing services for this angel investment conference located in Corvallis, OR.',
 					link: 'http://willametteconference.com/',
-					text: 'Visit Willamette Angel Conference website',
+					text: 'Visit the Willamette Angel Conference website',
 					disabled: ''
 				},
 				{
@@ -190,7 +200,7 @@
 					company: 'Dafna Idit Margalit',
 					desc: 'I provided paid website development, website design,  and e-commerce services for this artist located in Portland, OR.',
 					link: 'http://www.hmccoregon.com',
-					text: 'Visit Dafna Idit Margalit website',
+					text: 'Visit Dafna Idit Margalit\'s website',
 					disabled: 'disabled'
 				},
 				{
@@ -200,7 +210,7 @@
 					company: 'Willamette Innovator\'s Night',
 					desc: 'I provided paid event management, event marketing, and sponsorship sales services for this yearly event held in Corvallis, OR.',
 					link: 'https://www.willametteinnovators.com/win-expo/',
-					text: 'Visit Willamette Innovator\'s Night website',
+					text: 'Visit the Willamette Innovator\'s Night website',
 					disabled: ''
 				},
 				{
@@ -210,87 +220,7 @@
 					company: 'Willamette Innovation Network',
 					desc: 'I provided paid project management, branding, and copywriting services for this website.',
 					link: 'https://www.willametteinnovators.com/',
-					text: 'Visit Willamette Innovators Network website',
-					disabled: ''
-				},
-				{
-					title: 'Guerilla Division',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Guerilla Division',
-					desc: 'I provided paid  copywriting services for the Newsletter',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit Guerilla Division website',
-					disabled: 'disabled'
-				},
-				{
-					title: 'Solidcraft Countertops',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Solidcraft Countertops',
-					desc: 'I provided paid website development, website design, web hosting, and copywriting services for this company in Portland, OR.',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit Solidcraft website',
-					disabled: 'disabled'
-				},
-				{
-					title: 'Collage',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Collage',
-					desc: 'I provided paid website development, website design, website hosting, and copywriting services for this art shop in Portland, OR.',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit Collage website',
-					disabled: 'disabled'
-				},
-				{
-					title: 'Stellas Barbershop',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Stella\'s Barbershop',
-					desc: 'I provided paid website development, website design, website hosting, and copywriting services for this barbershop in Portland, OR.',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit Stella\'s website',
-					disabled: 'disabled'
-				},
-				{
-					title: 'Dorado Sound',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Dorado Sound',
-					desc: 'I provided paid website development, website design, website hosting, and e-commerce services for this band in Portland, OR.',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit the Dorado Sound website',
-					disabled: ''
-				},
-				{
-					title: 'Press Digital Magazine',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Press Digital Magazine',
-					desc: 'I performed copywriting services for the Newsletter',
-					link: 'http://www.hmccoregon.com',
-					text: 'Visit Press Digital website',
-					disabled: 'disabled'
-				},
-				{
-					title: 'Ooligan Press',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Ooligan Press',
-					desc: 'I provided unpaid direct sales and marketing services during a summer internship at this Portland State University publisher.',
-					link: 'https://ooligan.pdx.edu/',
-					text: 'Visit Ooligan Press website',
-					disabled: ''
-				},
-				{
-					title: 'Corvallis Youth Garden Project',
-					imageOne: 'http://www.placehold.it/240x200',
-					imageTwo: 'http://www.placehold.it/240x200',
-					company: 'Corvallis Youth Garden Project',
-					desc: 'I provided paid management and operations support for this community youth workforce development project located in Corvallis, OR.',
-					link: 'http://communityservices.us/education/detail/category/youth-garden/',
-					text: 'Visit Corvallis Youth website',
+					text: 'Visit the Willamette Innovators Network website',
 					disabled: ''
 				},
 				{
@@ -300,7 +230,87 @@
 					company: 'Stained Glass Overlay Portland',
 					desc: 'I provided paid website development, website design, and website hosting services for this stained glass company in Portland, OR.',
 					link: 'http://www.stainedglassoverlay.com',
-					text: 'Visit Stainged Glass Overlay website',
+					text: 'Visit the Stained Glass Overlay website',
+					disabled: ''
+				},
+				{
+					title: 'Solidcraft Countertops',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Solidcraft Countertops',
+					desc: 'I provided paid website development, website design, web hosting, and copywriting services for this countertop company in Portland, OR.',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit the Solidcraft Countertops website',
+					disabled: 'disabled'
+				},
+				{
+					title: 'Collage',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Collage',
+					desc: 'I provided paid website development, website design, website hosting, and copywriting services for this art supply store in Portland, OR.',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit the Collage website',
+					disabled: 'disabled'
+				},
+				{
+					title: 'Stellas Barbershop',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Stella\'s Barbershop',
+					desc: 'I provided paid website development, website design, website hosting, and copywriting services for this barbershop in Portland, OR.',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit Stella\'s Barbershop website',
+					disabled: 'disabled'
+				},
+				{
+					title: 'Dorado Sound',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Dorado Sound',
+					desc: 'I provided paid website development, website design, website hosting, and e-commerce services for this musical group in Portland, OR.',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit the Dorado Sound website',
+					disabled: ''
+				},
+				{
+					title: 'Guerilla Division',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Guerilla Division',
+					desc: 'I provided paid  copywriting services for the Newsletter',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit the Guerilla Division website',
+					disabled: 'disabled'
+				},
+				{
+					title: 'Press Digital Magazine',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Press Digital Magazine',
+					desc: 'I performed copywriting services for the Newsletter',
+					link: 'http://www.hmccoregon.com',
+					text: 'Visit the Press Digital Magazine website',
+					disabled: 'disabled'
+				},
+				{
+					title: 'Ooligan Press',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Ooligan Press',
+					desc: 'I provided unpaid direct sales and marketing services during a summer internship at this Portland State University publisher.',
+					link: 'https://ooligan.pdx.edu/',
+					text: 'Visit the Ooligan Press website',
+					disabled: ''
+				},
+				{
+					title: 'Corvallis Youth Garden Project',
+					imageOne: 'http://www.placehold.it/240x200',
+					imageTwo: 'http://www.placehold.it/240x200',
+					company: 'Corvallis Youth Garden Project',
+					desc: 'I provided paid operations and management support for a community youth workforce development project in Corvallis, OR.',
+					link: 'http://communityservices.us/education/detail/category/youth-garden/',
+					text: 'Visit the Corvallis Youth Garden website',
 					disabled: ''
 				}
 			]
