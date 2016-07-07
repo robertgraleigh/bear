@@ -48,7 +48,8 @@
 	app.locals.tagline = 'An application with animals on the cover'
 	app.locals.email = 'info@rgrventures.com';
 	app.locals.phone = '+1 (xxx) xxx-xxxx';
-	app.locals.website = 'https://www.rgrventures.com';
+	app.locals.company = 'Raleigh &amp; Co., Inc.';
+	app.locals.website = 'https://www.raleighandco.com';
 	app.locals.twitter = '@RobertGRaleigh';
 	app.locals.github = '@RobertGRaleigh';
 	app.locals.year = new Date().getFullYear();
