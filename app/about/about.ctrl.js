@@ -67,7 +67,7 @@
 					company: 'Guerilla Division',
 					dates: '2007 - 2012'
 				},
-				{	
+				{
 					image: '/img/placeholder.png',
 					title: 'Shift Leader',
 					company: 'Oregon Health Sciences University',
@@ -140,21 +140,21 @@
 					degree: 'Certificate',
 					program: 'Full Stack Development',
 					school: 'Treehouse',
-					dates: 'Completed 2006'						
+					dates: 'Completed 2006'
 				},
 				{
 					image: '/img/placeholder.png',
 					degree: 'Project Management',
 					program: 'Management and Supervisory Development',
 					school: 'Portland Community College',
-					dates: 'Graduated 2006'					
-				},				
+					dates: 'Graduated 2006'
+				},
 				{
 					image: '/img/placeholder.png',
 					degree: 'Leadership',
 					program: 'Management and Supervisory Development',
 					school: 'Portland Community College',
-					dates: 'Graduated 2006'					
+					dates: 'Graduated 2006'
 				}
 			],
 			testimonials: [
@@ -162,19 +162,19 @@
 					image: '/img/placeholder.png',
 					person: 'Merritt Lawrenson',
 					company: 'Treehouse',
-					copy: 'This is the sample content for the testimonial.'					
+					copy: 'This is the sample content for the testimonial.'
 				},
 				{
 					image: '/img/placeholder.png',
 					person: 'David Wheeler',
 					company: 'First Baptist Church of Portland',
-					copy: 'This is the sample content for the testimonial.'					
-				},				
+					copy: 'This is the sample content for the testimonial.'
+				},
 				{
 					image: '/img/placeholder.png',
 					person: 'Dahlia Turnbull',
 					company: 'Lyft',
-					copy: 'This is the sample content for the testimonial.'					
+					copy: 'This is the sample content for the testimonial.'
 				}
 			]
 		});
