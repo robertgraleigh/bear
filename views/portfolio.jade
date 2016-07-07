@@ -7,24 +7,30 @@ block content
 			div(id='portfolio-header-img', class='ui nine wide grey column')
 				h1(class='ui uppercase right aligned inverted white header')
 					span(class='blue bottom border') #{pageHeader.title}
-				h3(class='ui header') #{pageHeader.subtitle}
+				h3(class='ui right aligned header') #{pageHeader.subtitle}
 			div(class='ui seven wide column')
-				h3(class='ui uppercase header') #{pageInfo.header}
-				p(class='ui text') #{pageInfo.copyOne}
-				p(class='ui text') #{pageInfo.copyTwo}
+				div(class='ui segment')
+					h3(class='ui uppercase header') #{pageInfo.header}
+					p(class='ui text') #{pageInfo.firstCopy}
+					p(class='ui text') #{pageInfo.secondCopy}
 
-	section(id='past-projects')
+	section(id='client-work')
 		div(class='ui internally celled padded grid')
 			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui uppercase right aligned inverted white header')
-					span(class='blue bottom border') Past Projects
+					span(class='blue bottom border') Client Work
+				h3(class='ui right aligned inverted grey header') Examples of current and past client work.
 			div(class='ui seven wide column')
 					div(class='ui divided items')
 						each project in projects
 							div(class='ui item')
 								div(class='ui segment')
-									img(src='/img/placeholder.png', class='ui responsive image')
+									div(class='ui horizontal list')
+										div(class='ui item')
+											img(src='#{project.imageOne}', class='ui responsive image')
+										div(class='ui item')
+											img(src='#{project.imageOne}', class='ui responsive image')
 									div(class='middle aligned content')
-										h3(class='ui uppercase heading') #{project.company}
+										h3(class='ui uppercase heading', style='margin-top: 15px !important;') #{project.company}
 										p(class='ui text') #{project.desc}
 										a(href='#{project.link}', class ='ui #{project.disabled} basic grey button' , target="_blank") #{project.text}
