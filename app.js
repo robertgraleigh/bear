@@ -48,7 +48,7 @@
 	app.locals.tagline = 'An application with animals on the cover'
 	app.locals.email = 'info@rgrventures.com';
 	app.locals.phone = '+1 (xxx) xxx-xxxx';
-	app.locals.company = 'Raleigh &amp; Co., Inc.';
+	app.locals.company = 'Raleigh & Co., Inc.';
 	app.locals.website = 'https://www.raleighandco.com';
 	app.locals.twitter = '@RobertGRaleigh';
 	app.locals.github = '@RobertGRaleigh';
