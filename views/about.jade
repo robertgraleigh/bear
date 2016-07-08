@@ -82,12 +82,13 @@ block content
 				div(class='ui divided items')
 					each employer in employers
 						div(class='ui item')
-							div(class='image')
-								img(src='#{employer.image}', class='ui medium rounded image')
-							div(class='ui top aligned content')
-								h3(class='ui header') #{employer.title}
-								p #{employer.company}
-								p #{employer.dates}
+							div(class='ui segment')
+								div(class='image')
+									img(src='#{employer.image}', class='ui medium rounded image')
+								div(class='ui top aligned content')
+									h3(class='ui header') #{employer.title}
+									h4(class='ui header') #{employer.company}
+									h5(class='ui header') #{employer.dates}
 
 	section(id='volunteer')
 		div(class='ui internally celled padded grid')
