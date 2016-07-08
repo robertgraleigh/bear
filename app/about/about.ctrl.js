@@ -50,13 +50,13 @@
 					dates: '2012 - 2016'
 				},
 				{
-					image: '/img/placeholder.png',
+					image: '/img/corvallis-chamber-of-commerce-logo.png',
 					title: 'Technology Community Relations Specialist',
 					company: 'Corvallis Chamber of Commerce',
 					dates: '2009'
 				},
 				{
-					image: '/img/placeholder.png',
+					image: '/img/technology-association-oregon-logo.jpg',
 					title: 'Event Manager',
 					company: 'Technology Association of Oregon',
 					dates: '2009'
@@ -68,7 +68,7 @@
 					dates: '2007 - 2012'
 				},
 				{
-					image: '/img/placeholder.png',
+					image: '/img/oregon-health-sciences-university-logo.gif',
 					title: 'Shift Leader',
 					company: 'Oregon Health Sciences University',
 					dates: '2004 - 2008'
