@@ -83,7 +83,7 @@ block content
 					each employer in employers
 						div(class='ui item')
 							div(class='image')
-								img(src='#{employer.image}')
+								img(src='#{employer.image}', class='ui medium rounded image')
 							div(class='ui top aligned content')
 								h3(class='ui header') #{employer.title}
 								p #{employer.company}
@@ -99,7 +99,7 @@ block content
 					each volunteer in volunteers
 						div(class='ui item')
 							div(class='image')
-								img(src='#{volunteer.image}')
+								img(src='#{volunteer.image}', class='ui responsive rounded image')
 							div(class='ui top aligned content')
 								h3(class='ui header') #{volunteer.title}
 								p(class='ui header') #{volunteer.program}
@@ -114,8 +114,8 @@ block content
 				div(class='ui divided items')
 					each education in educations
 						div(class='ui item')
-							div(class='image')
-								img(src='#{education.image}')
+							div(class='ui image')
+								img(src='#{education.image}', class='ui responsive bordered image')
 							div(class='ui top aligned content')
 								h3(class='ui header') #{education.degree}
 								p(class='ui header') #{education.program}
@@ -131,7 +131,7 @@ block content
 					each training in trainings
 						div(class='ui item')
 							div(class='image')
-								img(src='#{training.image}')
+								img(src='#{training.image}', class='ui responsive bordered image')
 							div(class='ui top aligned content')
 								h3(class='ui small header')	#{training.school}
 								h4(class='ui header') #{training.degree}

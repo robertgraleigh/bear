@@ -22,6 +22,13 @@ div.ui.simple.uppercase.dropdown.item {
 	color: #404040 !important;
 }
 
+a.ui.uppercase.logo.link {
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 2rem;
+	font-weight: normal;
+	color: #444444 !important;
+}
+
 a.uppercase.brand.link {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
