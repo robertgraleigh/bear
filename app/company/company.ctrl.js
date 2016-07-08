@@ -2,6 +2,10 @@
   /* GET INDEX page. */
   module.exports.company = function(req, res) {
     res.render('company', {
+			page: {
+				title: 'Company',
+				description: 'Raleigh & Company is a digital business agency in Portland, OR. ',
+			},
       pageHeader: {
         title: 'Company',
         subTitle: 'This is the subtitle for the about page.'

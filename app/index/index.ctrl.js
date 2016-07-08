@@ -3,10 +3,13 @@
   /* GET INDEX view. */
   module.exports.index = function(req, res) {
     res.render('index', {
-      title: 'Robert G. Raleigh - Multi-faceted web developer',
-      header: {
-        mainHeader: 'Robert G. Raleigh',
-        subHeader: 'Full-stack MEAN Web Developer'
+			page: {
+      	title: 'Robert G. Raleigh Multi-faceted web developer',
+				description: 'Robert G. Raleigh is a web developer who lives and works in Portland, OR.'
+			},
+      pageHeader: {
+        title: 'Robert G. Raleigh',
+        subtitle: 'Full-stack MEAN Web Developer'
     	},
       sections: [
         {
