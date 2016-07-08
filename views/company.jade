@@ -65,49 +65,26 @@ block content
 			div(class='ui nine wide column pattern_banner_img')
 				h2(class='ui right aligned uppercase inverted white header')
 					span(class='blue bottom border') Ideal Clients
-			div(class='ui six wide left aligned column')
+			div(class='ui seven wide left aligned column')
 				div(class='ui raised segment')
+					h3(class='ui header') We excel at working with individual owners, and small teams in the nonprofit, education, technology, and startup sectors.
 					p At Raleigh &amp; Company, we expect clients to pay in a timely fashion. This allows us to maintain trust. We
 
-	section(id='past-projects')
+	section(id='projects')
 		div(class='ui internally celled padded grid')
 			div(class='ui nine wide column pattern_banner_img')
-				h2(class='ui right aligned uppercase inverted white header')
-					span(class='bottom blue border') Past Projects
+				h2(class='ui uppercase right aligned inverted white header')
+					span(class='blue bottom border') Past Ventures
 			div(class='ui seven wide column')
-				div(class='ui vertical list')
-					div(class='ui item')
-						div(class='ui raised segment')
-							h3(class='left aligned uppercase header') Natives Who Code
-							p A professional association for software and technology professionals of Native and Indigenous descent.
-							p The program offers, and training.
-							p Status: In development
-							p Dates: 20
-							a(href='http://www.nativeswhocode.org', class='ui disabled basic blue button') Visit Natives Who Code
-
-					div(class='ui padded item')
-						div(class='ui raised segment')
-							h3(class='ui left aligned uppercase header') Log Camp
-							p A vocational school for underserved youth teaching coding, computer science, and software development skills.
-							p Project Dates: 0ct, 2012 - Mar, 2016
-							p Project Status: On hiatus
-							a(href='http://www.logcamp.org', class='ui disabled basic blue button') Visit Log Camp website
-
-					div(class='ui padded item')
-						div(class='ui raised segment')
-							h3(class='ui left aligned uppercase header') Guerilla Division
-							p A compact web agency working with nonprofits, creatives, and independent professionals.
-							p Dates: xxxx - xxxx
-							p status: Closed indefinitely
-							a(href='http://www.guerilladivision.com', class='ui disabled basic blue button') Visit Guerilla Division Website
-
-					div(class='ui padded item')
-						div(class='ui raised segment')
-							h3(class='ui left aligned uppercase header') Press Digital Magazine
-							p A digital arts and culture magazine covering Portland, OR.
-							p Dates: xxxx - xxxx
-							p status: Closed indefinitely
-							a(href='http://www.pressmagazine.com', class='ui disabled basic blue button') Visit Press Website
+					div(class='ui divided items')
+						each venture in ventures
+							div(class='ui item')
+								div(class='ui segment')
+									div(class='ui vertical list')
+										h3(class='left aligned uppercase header') #{venture.title}
+										p #{venture.desc}
+										p Dates: #{venture.dates} - Status: #{venture.status}
+										a(href='#{venture.link}', class='ui #{disabled} basic blue button') #{venture.text}
 
 	section(id='contact')
 		div(class='ui internally celled padded grid')
@@ -116,9 +93,16 @@ block content
 					span(class='blue bottom border') Contact Us
 			div(class='ui seven wide column')
 				div(class='ui raised segment')
-					h3(class='ui header') Raleigh &amp; Co. is a digital business agency with an office located in Portland, OR
-					img(src='http://placehold.it/140x140', class='ui image')
-					address 334 NW 11th Ave, Portland, OR 97204
+					h3(class='ui header') Raleigh &amp; Co. is a digital business agency located in the always sunny Portland, OR
+					div(class='ui horizontal list')
+						div(class='ui item')
+							img(src='/img/placeholder.png', class='ui responsive image')
+						div(class='ui item')
+							img(src='/img/placeholder.png', class='ui responsive image')
+						div(class='ui item')
+							img(src='/img/placeholder.png', class='ui responsive image')
+					h4(class='ui bold') Offices
+					address Deskhub, 334 NW 11th Ave, Portland, OR 97204
 					ul(class='ui vertical list')
 						div(class='ui item')
 							a(href='')
@@ -126,6 +110,6 @@ block content
 						div(class='ui item')
 							a(href='')
 								span +1 (503) 502-6125
-					a(class='ui basic grey button') Email Us
-					a(class='ui basic blue button') Call Us
-					a(class='ui basic orange button') Message us
+					a(href-'mailto:info@raleighandco.com', class='ui basic grey button') Email Us
+					a(href-'tel:+15035026125', class='ui basic blue button') Call Us
+					a(href='http://www.google.com', class='ui basic orange button') Get directions
